@@ -7,3 +7,6 @@ Firstly, rule mining will be used to identify patterns and correlations within t
 
 Secondly, the SHACL shapes constraint language will be applied to validate the KG against predefined constraints to ensure its adherence to standards and data quality requirements.
 
+# RDF mapping
+tabular representations
+
