@@ -9,4 +9,4 @@ Secondly, the SHACL shapes constraint language will be applied to validate the K
 
 # RDF mapping
 tabular representations
-
+Construct the knowledge graph from the tabular dataset in CSV form. 
