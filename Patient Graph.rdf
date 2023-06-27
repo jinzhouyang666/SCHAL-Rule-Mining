@@ -1,0 +1,6823 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/patient/201006.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2038-05-10"^^xsd:date ;
+    ns1:deathDate "2107-03-30"^^xsd:date ;
+    ns1:endDate "2107-03-24"^^xsd:date,
+        "2107-03-25"^^xsd:date,
+        "2107-03-26"^^xsd:date,
+        "2107-03-27"^^xsd:date,
+        "2107-03-28"^^xsd:date,
+        "2107-03-29"^^xsd:date,
+        "2107-03-30"^^xsd:date,
+        "2107-03-31"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/201006.0> ;
+    ns1:identifier 2.01006e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/201006.0> ;
+    ns1:startDate "2107-03-24"^^xsd:date,
+        "2107-03-25"^^xsd:date,
+        "2107-03-26"^^xsd:date,
+        "2107-03-27"^^xsd:date,
+        "2107-03-28"^^xsd:date,
+        "2107-03-29"^^xsd:date,
+        "2107-03-30"^^xsd:date .
+
+<http://example.com/patient/201204.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2041-05-16"^^xsd:date ;
+    ns1:deathDate "2122-02-28"^^xsd:date ;
+    ns1:endDate "2121-12-09"^^xsd:date,
+        "2121-12-10"^^xsd:date,
+        "2121-12-11"^^xsd:date,
+        "2121-12-12"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/201204.0> ;
+    ns1:identifier 2.01204e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/201204.0> ;
+    ns1:startDate "2121-12-08"^^xsd:date,
+        "2121-12-09"^^xsd:date,
+        "2121-12-10"^^xsd:date .
+
+<http://example.com/patient/203766.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2061-03-25"^^xsd:date ;
+    ns1:deathDate "2129-12-01"^^xsd:date ;
+    ns1:endDate "2129-11-25"^^xsd:date,
+        "2129-11-26"^^xsd:date,
+        "2129-11-27"^^xsd:date,
+        "2129-11-28"^^xsd:date,
+        "2129-11-29"^^xsd:date,
+        "2129-11-30"^^xsd:date,
+        "2129-12-01"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/203766.0> ;
+    ns1:identifier 2.03766e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/203766.0> ;
+    ns1:startDate "2129-11-25"^^xsd:date,
+        "2129-11-26"^^xsd:date,
+        "2129-11-27"^^xsd:date,
+        "2129-11-28"^^xsd:date,
+        "2129-11-29"^^xsd:date,
+        "2129-11-30"^^xsd:date,
+        "2129-12-01"^^xsd:date .
+
+<http://example.com/patient/204132.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2103-12-05"^^xsd:date ;
+    ns1:deathDate "2144-12-31"^^xsd:date ;
+    ns1:endDate "2144-12-26"^^xsd:date,
+        "2144-12-27"^^xsd:date,
+        "2144-12-28"^^xsd:date,
+        "2144-12-29"^^xsd:date,
+        "2144-12-30"^^xsd:date,
+        "2144-12-31"^^xsd:date,
+        "2145-01-01"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/204132.0> ;
+    ns1:identifier 2.04132e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/204132.0> ;
+    ns1:startDate "2144-12-25"^^xsd:date,
+        "2144-12-26"^^xsd:date,
+        "2144-12-27"^^xsd:date,
+        "2144-12-28"^^xsd:date,
+        "2144-12-29"^^xsd:date,
+        "2144-12-30"^^xsd:date .
+
+<http://example.com/patient/204201.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2050-02-16"^^xsd:date ;
+    ns1:deathDate "2125-05-09"^^xsd:date ;
+    ns1:endDate "2120-08-25"^^xsd:date,
+        "2120-08-26"^^xsd:date,
+        "2120-08-27"^^xsd:date,
+        "2120-08-28"^^xsd:date,
+        "2120-08-30"^^xsd:date,
+        "2120-08-31"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/204201.0> ;
+    ns1:identifier 2.04201e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/204201.0> ;
+    ns1:startDate "2120-08-25"^^xsd:date,
+        "2120-08-26"^^xsd:date .
+
+<http://example.com/patient/204881.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2075-09-21"^^xsd:date ;
+    ns1:deathDate "2152-09-12"^^xsd:date ;
+    ns1:endDate "2149-05-31"^^xsd:date,
+        "2149-06-01"^^xsd:date,
+        "2149-06-02"^^xsd:date,
+        "2149-06-03"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/204881.0> ;
+    ns1:identifier 2.04881e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/204881.0> ;
+    ns1:startDate "2149-05-30"^^xsd:date,
+        "2149-05-31"^^xsd:date,
+        "2149-06-01"^^xsd:date .
+
+<http://example.com/patient/205170.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2199-01-14"^^xsd:date,
+        "2199-01-15"^^xsd:date,
+        "2199-01-16"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/205170.0> ;
+    ns1:identifier 2.0517e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/205170.0> ;
+    ns1:startDate "2199-01-14"^^xsd:date,
+        "2199-01-15"^^xsd:date,
+        "2199-01-16"^^xsd:date,
+        "2199-01-17"^^xsd:date .
+
+<http://example.com/patient/205589.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2036-03-10"^^xsd:date ;
+    ns1:deathDate "2120-09-18"^^xsd:date ;
+    ns1:endDate "2117-08-22"^^xsd:date,
+        "2117-08-23"^^xsd:date,
+        "2117-08-24"^^xsd:date,
+        "2117-08-25"^^xsd:date,
+        "2117-08-26"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/205589.0> ;
+    ns1:identifier 2.05589e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/205589.0> ;
+    ns1:startDate "2117-08-21"^^xsd:date,
+        "2117-08-22"^^xsd:date,
+        "2117-08-23"^^xsd:date .
+
+<http://example.com/patient/206504.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2094-03-05"^^xsd:date ;
+    ns1:deathDate "2165-08-12"^^xsd:date ;
+    ns1:endDate "2164-10-25"^^xsd:date,
+        "2164-10-26"^^xsd:date,
+        "2164-10-27"^^xsd:date,
+        "2164-10-29"^^xsd:date,
+        "2164-11-01"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/206504.0> ;
+    ns1:identifier 2.06504e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/206504.0> ;
+    ns1:startDate "2164-10-24"^^xsd:date,
+        "2164-10-25"^^xsd:date,
+        "2164-10-26"^^xsd:date .
+
+<http://example.com/patient/209797.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2201-11-17"^^xsd:date,
+        "2201-11-18"^^xsd:date,
+        "2201-11-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/209797.0> ;
+    ns1:identifier 2.09797e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/209797.0> ;
+    ns1:startDate "2201-11-17"^^xsd:date,
+        "2201-11-18"^^xsd:date,
+        "2201-11-19"^^xsd:date .
+
+<http://example.com/patient/210164.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2083-09-20"^^xsd:date ;
+    ns1:deathDate "2127-10-28"^^xsd:date ;
+    ns1:endDate "2127-07-29"^^xsd:date,
+        "2127-07-30"^^xsd:date,
+        "2127-08-01"^^xsd:date,
+        "2127-08-02"^^xsd:date,
+        "2127-08-04"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/210164.0> ;
+    ns1:identifier 2.10164e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/210164.0> ;
+    ns1:startDate "2127-07-29"^^xsd:date,
+        "2127-07-30"^^xsd:date,
+        "2127-07-31"^^xsd:date .
+
+<http://example.com/patient/210474.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2061-12-10"^^xsd:date ;
+    ns1:deathDate "2142-11-30"^^xsd:date ;
+    ns1:endDate "2142-11-27"^^xsd:date,
+        "2142-11-28"^^xsd:date,
+        "2142-11-30"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/210474.0> ;
+    ns1:identifier 2.10474e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/210474.0> ;
+    ns1:startDate "2142-11-27"^^xsd:date,
+        "2142-11-28"^^xsd:date,
+        "2142-11-29"^^xsd:date,
+        "2142-11-30"^^xsd:date .
+
+<http://example.com/patient/210989.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2103-12-05"^^xsd:date ;
+    ns1:deathDate "2144-12-31"^^xsd:date ;
+    ns1:endDate "2144-07-13"^^xsd:date,
+        "2144-07-14"^^xsd:date,
+        "2144-07-15"^^xsd:date,
+        "2144-07-16"^^xsd:date,
+        "2144-07-17"^^xsd:date,
+        "2144-07-18"^^xsd:date,
+        "2144-07-19"^^xsd:date,
+        "2144-07-20"^^xsd:date,
+        "2144-07-21"^^xsd:date,
+        "2144-07-22"^^xsd:date,
+        "2144-07-23"^^xsd:date,
+        "2144-07-24"^^xsd:date,
+        "2144-07-25"^^xsd:date,
+        "2144-07-26"^^xsd:date,
+        "2144-07-27"^^xsd:date,
+        "2144-07-28"^^xsd:date,
+        "2144-07-29"^^xsd:date,
+        "2144-07-30"^^xsd:date,
+        "2144-07-31"^^xsd:date,
+        "2144-08-01"^^xsd:date,
+        "2144-08-02"^^xsd:date,
+        "2144-08-03"^^xsd:date,
+        "2144-08-04"^^xsd:date,
+        "2144-08-05"^^xsd:date,
+        "2144-08-07"^^xsd:date,
+        "2144-08-08"^^xsd:date,
+        "2144-08-09"^^xsd:date,
+        "2144-08-10"^^xsd:date,
+        "2144-08-11"^^xsd:date,
+        "2144-08-12"^^xsd:date,
+        "2144-08-15"^^xsd:date,
+        "2144-08-18"^^xsd:date,
+        "2144-08-25"^^xsd:date,
+        "2144-08-30"^^xsd:date,
+        "2144-09-28"^^xsd:date,
+        "2144-11-12"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/210989.0> ;
+    ns1:identifier 2.10989e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/210989.0> ;
+    ns1:startDate "2144-07-13"^^xsd:date,
+        "2144-07-14"^^xsd:date,
+        "2144-07-15"^^xsd:date,
+        "2144-07-16"^^xsd:date,
+        "2144-07-17"^^xsd:date,
+        "2144-07-18"^^xsd:date,
+        "2144-07-19"^^xsd:date,
+        "2144-07-20"^^xsd:date,
+        "2144-07-21"^^xsd:date,
+        "2144-07-22"^^xsd:date,
+        "2144-07-23"^^xsd:date,
+        "2144-07-24"^^xsd:date,
+        "2144-07-25"^^xsd:date,
+        "2144-07-26"^^xsd:date,
+        "2144-07-27"^^xsd:date,
+        "2144-07-28"^^xsd:date,
+        "2144-07-29"^^xsd:date,
+        "2144-07-30"^^xsd:date,
+        "2144-07-31"^^xsd:date,
+        "2144-08-01"^^xsd:date .
+
+<http://example.com/patient/213315.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2201-09-29"^^xsd:date,
+        "2201-09-30"^^xsd:date,
+        "2201-10-01"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/213315.0> ;
+    ns1:identifier 2.13315e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/213315.0> ;
+    ns1:startDate "2201-09-29"^^xsd:date,
+        "2201-09-30"^^xsd:date .
+
+<http://example.com/patient/214180.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2051-03-24"^^xsd:date ;
+    ns1:deathDate "2105-02-16"^^xsd:date ;
+    ns1:endDate "2104-09-25"^^xsd:date,
+        "2104-09-26"^^xsd:date,
+        "2104-09-27"^^xsd:date,
+        "2104-09-29"^^xsd:date,
+        "2104-09-30"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/214180.0> ;
+    ns1:identifier 2.1418e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/214180.0> ;
+    ns1:startDate "2104-09-25"^^xsd:date,
+        "2104-09-26"^^xsd:date,
+        "2104-09-27"^^xsd:date .
+
+<http://example.com/patient/215460.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2081-01-03"^^xsd:date ;
+    ns1:deathDate "2150-08-29"^^xsd:date ;
+    ns1:endDate "2150-08-08"^^xsd:date,
+        "2150-08-09"^^xsd:date,
+        "2150-08-12"^^xsd:date,
+        "2150-08-13"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/215460.0> ;
+    ns1:identifier 2.1546e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/215460.0> ;
+    ns1:startDate "2150-08-08"^^xsd:date,
+        "2150-08-09"^^xsd:date,
+        "2150-08-10"^^xsd:date .
+
+<http://example.com/patient/216185.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2096-07-25"^^xsd:date ;
+    ns1:deathDate "2145-12-06"^^xsd:date ;
+    ns1:endDate "2145-07-07"^^xsd:date,
+        "2145-07-08"^^xsd:date,
+        "2145-07-09"^^xsd:date,
+        "2145-07-10"^^xsd:date,
+        "2145-07-11"^^xsd:date,
+        "2145-07-12"^^xsd:date,
+        "2145-07-13"^^xsd:date,
+        "2145-07-14"^^xsd:date,
+        "2145-07-15"^^xsd:date,
+        "2145-07-16"^^xsd:date,
+        "2145-07-17"^^xsd:date,
+        "2145-07-18"^^xsd:date,
+        "2145-07-19"^^xsd:date,
+        "2145-07-20"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/216185.0> ;
+    ns1:identifier 2.16185e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/216185.0> ;
+    ns1:startDate "2145-07-07"^^xsd:date,
+        "2145-07-08"^^xsd:date,
+        "2145-07-09"^^xsd:date,
+        "2145-07-10"^^xsd:date,
+        "2145-07-11"^^xsd:date,
+        "2145-07-12"^^xsd:date,
+        "2145-07-13"^^xsd:date,
+        "2145-07-14"^^xsd:date,
+        "2145-07-15"^^xsd:date,
+        "2145-07-16"^^xsd:date,
+        "2145-07-17"^^xsd:date,
+        "2145-07-18"^^xsd:date .
+
+<http://example.com/patient/216493.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2202-09-17"^^xsd:date,
+        "2202-09-18"^^xsd:date,
+        "2202-09-19"^^xsd:date,
+        "2202-09-20"^^xsd:date,
+        "2202-09-22"^^xsd:date,
+        "2202-09-23"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/216493.0> ;
+    ns1:identifier 2.16493e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/216493.0> ;
+    ns1:startDate "2202-09-17"^^xsd:date,
+        "2202-09-18"^^xsd:date,
+        "2202-09-19"^^xsd:date .
+
+<http://example.com/patient/217724.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1878-05-14"^^xsd:date ;
+    ns1:deathDate "2178-05-15"^^xsd:date ;
+    ns1:endDate "2178-05-15"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/217724.0> ;
+    ns1:identifier 2.17724e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/217724.0> ;
+    ns1:startDate "2178-05-15"^^xsd:date .
+
+<http://example.com/patient/217960.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2097-12-16"^^xsd:date ;
+    ns1:deathDate "2163-09-15"^^xsd:date ;
+    ns1:endDate "2161-09-15"^^xsd:date,
+        "2161-09-16"^^xsd:date,
+        "2161-09-17"^^xsd:date,
+        "2161-09-18"^^xsd:date,
+        "2161-09-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/217960.0> ;
+    ns1:identifier 2.1796e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/217960.0> ;
+    ns1:startDate "2161-09-15"^^xsd:date,
+        "2161-09-17"^^xsd:date .
+
+<http://example.com/patient/217992.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2112-10-22"^^xsd:date ;
+    ns1:deathDate "2171-04-14"^^xsd:date ;
+    ns1:endDate "2170-12-15"^^xsd:date,
+        "2170-12-16"^^xsd:date,
+        "2170-12-17"^^xsd:date,
+        "2170-12-18"^^xsd:date,
+        "2170-12-19"^^xsd:date,
+        "2170-12-20"^^xsd:date,
+        "2170-12-21"^^xsd:date,
+        "2170-12-24"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/217992.0> ;
+    ns1:identifier 2.17992e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/217992.0> ;
+    ns1:startDate "2170-12-15"^^xsd:date,
+        "2170-12-16"^^xsd:date,
+        "2170-12-17"^^xsd:date,
+        "2170-12-18"^^xsd:date,
+        "2170-12-19"^^xsd:date,
+        "2170-12-20"^^xsd:date .
+
+<http://example.com/patient/219013.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2070-10-11"^^xsd:date ;
+    ns1:deathDate "2154-01-22"^^xsd:date ;
+    ns1:endDate "2151-08-14"^^xsd:date,
+        "2151-08-16"^^xsd:date,
+        "2151-08-17"^^xsd:date,
+        "2151-08-18"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/219013.0> ;
+    ns1:identifier 2.19013e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/219013.0> ;
+    ns1:startDate "2151-08-14"^^xsd:date,
+        "2151-08-15"^^xsd:date .
+
+<http://example.com/patient/220016.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1844-07-18"^^xsd:date ;
+    ns1:deathDate "2145-03-07"^^xsd:date ;
+    ns1:endDate "2144-07-19"^^xsd:date,
+        "2144-07-20"^^xsd:date,
+        "2144-07-21"^^xsd:date,
+        "2144-07-22"^^xsd:date,
+        "2144-07-24"^^xsd:date,
+        "2144-07-28"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/220016.0> ;
+    ns1:identifier 2.20016e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/220016.0> ;
+    ns1:startDate "2144-07-19"^^xsd:date,
+        "2144-07-20"^^xsd:date .
+
+<http://example.com/patient/220671.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2097-05-16"^^xsd:date ;
+    ns1:deathDate "2186-02-12"^^xsd:date ;
+    ns1:endDate "2186-02-10"^^xsd:date,
+        "2186-02-11"^^xsd:date,
+        "2186-02-12"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/220671.0> ;
+    ns1:identifier 2.20671e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/220671.0> ;
+    ns1:startDate "2186-02-10"^^xsd:date,
+        "2186-02-11"^^xsd:date .
+
+<http://example.com/patient/221684.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2051-03-23"^^xsd:date ;
+    ns1:deathDate "2119-11-14"^^xsd:date ;
+    ns1:endDate "2119-10-31"^^xsd:date,
+        "2119-11-01"^^xsd:date,
+        "2119-11-02"^^xsd:date,
+        "2119-11-03"^^xsd:date,
+        "2119-11-04"^^xsd:date,
+        "2119-11-05"^^xsd:date,
+        "2119-11-06"^^xsd:date,
+        "2119-11-07"^^xsd:date,
+        "2119-11-08"^^xsd:date,
+        "2119-11-09"^^xsd:date,
+        "2119-11-10"^^xsd:date,
+        "2119-11-11"^^xsd:date,
+        "2119-11-14"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/221684.0> ;
+    ns1:identifier 2.21684e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/221684.0> ;
+    ns1:startDate "2119-10-31"^^xsd:date,
+        "2119-11-01"^^xsd:date,
+        "2119-11-02"^^xsd:date,
+        "2119-11-03"^^xsd:date,
+        "2119-11-04"^^xsd:date,
+        "2119-11-05"^^xsd:date,
+        "2119-11-06"^^xsd:date,
+        "2119-11-07"^^xsd:date,
+        "2119-11-08"^^xsd:date,
+        "2119-11-09"^^xsd:date,
+        "2119-11-10"^^xsd:date,
+        "2119-11-11"^^xsd:date,
+        "2119-11-12"^^xsd:date,
+        "2119-11-14"^^xsd:date .
+
+<http://example.com/patient/222779.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2108-12-20"^^xsd:date ;
+    ns1:deathDate "2192-05-15"^^xsd:date ;
+    ns1:endDate "2192-04-17"^^xsd:date,
+        "2192-04-18"^^xsd:date,
+        "2192-04-19"^^xsd:date,
+        "2192-04-20"^^xsd:date,
+        "2192-04-21"^^xsd:date,
+        "2192-04-22"^^xsd:date,
+        "2192-04-23"^^xsd:date,
+        "2192-04-24"^^xsd:date,
+        "2192-04-26"^^xsd:date,
+        "2192-04-27"^^xsd:date,
+        "2192-04-29"^^xsd:date,
+        "2192-04-30"^^xsd:date,
+        "2192-05-04"^^xsd:date,
+        "2192-05-05"^^xsd:date,
+        "2192-05-06"^^xsd:date,
+        "2192-05-08"^^xsd:date,
+        "2192-05-16"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/222779.0> ;
+    ns1:identifier 2.22779e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/222779.0> ;
+    ns1:startDate "2192-04-17"^^xsd:date,
+        "2192-04-18"^^xsd:date,
+        "2192-04-19"^^xsd:date,
+        "2192-04-20"^^xsd:date .
+
+<http://example.com/patient/223177.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2031-05-19"^^xsd:date ;
+    ns1:deathDate "2108-04-03"^^xsd:date ;
+    ns1:endDate "2107-01-16"^^xsd:date,
+        "2107-01-17"^^xsd:date,
+        "2107-01-18"^^xsd:date,
+        "2107-01-19"^^xsd:date,
+        "2107-01-20"^^xsd:date,
+        "2107-01-21"^^xsd:date,
+        "2107-01-22"^^xsd:date,
+        "2107-01-23"^^xsd:date,
+        "2107-01-24"^^xsd:date,
+        "2107-01-25"^^xsd:date,
+        "2107-01-26"^^xsd:date,
+        "2107-01-27"^^xsd:date,
+        "2107-01-28"^^xsd:date,
+        "2107-01-29"^^xsd:date,
+        "2107-01-30"^^xsd:date,
+        "2107-01-31"^^xsd:date,
+        "2107-02-01"^^xsd:date,
+        "2107-02-02"^^xsd:date,
+        "2107-02-03"^^xsd:date,
+        "2107-02-04"^^xsd:date,
+        "2107-02-05"^^xsd:date,
+        "2107-02-06"^^xsd:date,
+        "2107-02-07"^^xsd:date,
+        "2107-02-08"^^xsd:date,
+        "2107-02-09"^^xsd:date,
+        "2107-02-10"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/223177.0> ;
+    ns1:identifier 2.23177e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/223177.0> ;
+    ns1:startDate "2107-01-16"^^xsd:date,
+        "2107-01-17"^^xsd:date,
+        "2107-01-18"^^xsd:date,
+        "2107-01-19"^^xsd:date,
+        "2107-01-20"^^xsd:date,
+        "2107-01-21"^^xsd:date,
+        "2107-01-22"^^xsd:date,
+        "2107-01-23"^^xsd:date,
+        "2107-01-24"^^xsd:date,
+        "2107-01-25"^^xsd:date,
+        "2107-01-26"^^xsd:date,
+        "2107-01-27"^^xsd:date,
+        "2107-01-28"^^xsd:date,
+        "2107-01-29"^^xsd:date,
+        "2107-01-30"^^xsd:date,
+        "2107-01-31"^^xsd:date,
+        "2107-02-01"^^xsd:date,
+        "2107-02-02"^^xsd:date,
+        "2107-02-03"^^xsd:date,
+        "2107-02-04"^^xsd:date,
+        "2107-02-05"^^xsd:date,
+        "2107-02-06"^^xsd:date,
+        "2107-02-07"^^xsd:date,
+        "2107-02-08"^^xsd:date,
+        "2107-02-09"^^xsd:date,
+        "2107-02-10"^^xsd:date .
+
+<http://example.com/patient/223285.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2072-12-03"^^xsd:date ;
+    ns1:deathDate "2160-12-27"^^xsd:date ;
+    ns1:endDate "2160-12-17"^^xsd:date,
+        "2160-12-18"^^xsd:date,
+        "2160-12-19"^^xsd:date,
+        "2160-12-20"^^xsd:date,
+        "2160-12-21"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/223285.0> ;
+    ns1:identifier 2.23285e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/223285.0> ;
+    ns1:startDate "2160-12-17"^^xsd:date,
+        "2160-12-18"^^xsd:date .
+
+<http://example.com/patient/223870.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2035-04-13"^^xsd:date ;
+    ns1:deathDate "2105-06-11"^^xsd:date ;
+    ns1:endDate "2105-06-09"^^xsd:date,
+        "2105-06-10"^^xsd:date,
+        "2105-06-11"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/223870.0> ;
+    ns1:identifier 2.2387e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/223870.0> ;
+    ns1:startDate "2105-06-09"^^xsd:date,
+        "2105-06-10"^^xsd:date .
+
+<http://example.com/patient/224021.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2081-12-26"^^xsd:date ;
+    ns1:deathDate "2167-04-24"^^xsd:date ;
+    ns1:endDate "2167-02-12"^^xsd:date,
+        "2167-02-13"^^xsd:date,
+        "2167-02-14"^^xsd:date,
+        "2167-02-16"^^xsd:date,
+        "2167-02-17"^^xsd:date,
+        "2167-02-18"^^xsd:date,
+        "2167-02-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/224021.0> ;
+    ns1:identifier 2.24021e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/224021.0> ;
+    ns1:startDate "2167-02-12"^^xsd:date,
+        "2167-02-13"^^xsd:date .
+
+<http://example.com/patient/224063.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2069-05-05"^^xsd:date ;
+    ns1:deathDate "2148-01-19"^^xsd:date ;
+    ns1:endDate "2148-01-14"^^xsd:date,
+        "2148-01-15"^^xsd:date,
+        "2148-01-16"^^xsd:date,
+        "2148-01-18"^^xsd:date,
+        "2148-01-19"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/224063.0> ;
+    ns1:identifier 2.24063e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/224063.0> ;
+    ns1:startDate "2148-01-14"^^xsd:date,
+        "2148-01-16"^^xsd:date,
+        "2148-01-18"^^xsd:date .
+
+<http://example.com/patient/224458.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2029-12-07"^^xsd:date ;
+    ns1:deathDate "2111-01-14"^^xsd:date ;
+    ns1:endDate "2111-01-13"^^xsd:date,
+        "2111-01-14"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/224458.0> ;
+    ns1:identifier 2.24458e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/224458.0> ;
+    ns1:startDate "2111-01-13"^^xsd:date .
+
+<http://example.com/patient/226055.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2061-04-10"^^xsd:date ;
+    ns1:deathDate "2140-09-21"^^xsd:date ;
+    ns1:endDate "2139-09-25"^^xsd:date,
+        "2139-09-26"^^xsd:date,
+        "2139-09-29"^^xsd:date,
+        "2139-09-30"^^xsd:date,
+        "2139-10-02"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/226055.0> ;
+    ns1:identifier 2.26055e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/226055.0> ;
+    ns1:startDate "2139-09-24"^^xsd:date,
+        "2139-09-25"^^xsd:date,
+        "2139-09-26"^^xsd:date .
+
+<http://example.com/patient/227834.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1885-03-24"^^xsd:date ;
+    ns1:deathDate "2185-03-26"^^xsd:date ;
+    ns1:endDate "2185-03-25"^^xsd:date,
+        "2185-03-26"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/227834.0> ;
+    ns1:identifier 2.27834e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/227834.0> ;
+    ns1:startDate "2185-03-25"^^xsd:date .
+
+<http://example.com/patient/228977.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2114-06-20"^^xsd:date ;
+    ns1:deathDate "2163-05-15"^^xsd:date ;
+    ns1:endDate "2163-05-15"^^xsd:date,
+        "2163-05-16"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/228977.0> ;
+    ns1:identifier 2.28977e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/228977.0> ;
+    ns1:startDate "2163-05-15"^^xsd:date .
+
+<http://example.com/patient/229194.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2097-01-07"^^xsd:date ;
+    ns1:deathDate "2173-12-24"^^xsd:date ;
+    ns1:endDate "2173-11-28"^^xsd:date,
+        "2173-11-29"^^xsd:date,
+        "2173-11-30"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/229194.0> ;
+    ns1:identifier 2.29194e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/229194.0> ;
+    ns1:startDate "2173-11-28"^^xsd:date,
+        "2173-11-29"^^xsd:date .
+
+<http://example.com/patient/231005.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2073-08-13"^^xsd:date ;
+    ns1:deathDate "2159-11-25"^^xsd:date ;
+    ns1:endDate "2159-11-17"^^xsd:date,
+        "2159-11-18"^^xsd:date,
+        "2159-11-19"^^xsd:date,
+        "2159-11-20"^^xsd:date,
+        "2159-11-21"^^xsd:date,
+        "2159-11-22"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/231005.0> ;
+    ns1:identifier 2.31005e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/231005.0> ;
+    ns1:startDate "2159-11-17"^^xsd:date,
+        "2159-11-18"^^xsd:date,
+        "2159-11-19"^^xsd:date,
+        "2159-11-20"^^xsd:date,
+        "2159-11-21"^^xsd:date .
+
+<http://example.com/patient/234424.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2086-12-16"^^xsd:date ;
+    ns1:deathDate "2165-01-17"^^xsd:date ;
+    ns1:endDate "2163-11-25"^^xsd:date,
+        "2163-11-26"^^xsd:date,
+        "2163-11-27"^^xsd:date,
+        "2163-11-28"^^xsd:date,
+        "2163-11-29"^^xsd:date,
+        "2163-12-01"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/234424.0> ;
+    ns1:identifier 2.34424e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/234424.0> ;
+    ns1:startDate "2163-11-25"^^xsd:date,
+        "2163-11-26"^^xsd:date .
+
+<http://example.com/patient/234541.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2200-06-10"^^xsd:date,
+        "2200-06-11"^^xsd:date,
+        "2200-06-12"^^xsd:date,
+        "2200-06-13"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/234541.0> ;
+    ns1:identifier 2.34541e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/234541.0> ;
+    ns1:startDate "2200-06-10"^^xsd:date,
+        "2200-06-11"^^xsd:date,
+        "2200-06-12"^^xsd:date .
+
+<http://example.com/patient/235482.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2056-01-27"^^xsd:date ;
+    ns1:deathDate "2147-03-17"^^xsd:date ;
+    ns1:endDate "2144-02-13"^^xsd:date,
+        "2144-02-14"^^xsd:date,
+        "2144-02-16"^^xsd:date,
+        "2144-02-17"^^xsd:date,
+        "2144-02-20"^^xsd:date,
+        "2144-02-21"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/235482.0> ;
+    ns1:identifier 2.35482e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/235482.0> ;
+    ns1:startDate "2144-02-12"^^xsd:date,
+        "2144-02-13"^^xsd:date,
+        "2144-02-14"^^xsd:date,
+        "2144-02-15"^^xsd:date .
+
+<http://example.com/patient/236120.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2082-06-27"^^xsd:date ;
+    ns1:deathDate "2169-05-12"^^xsd:date ;
+    ns1:endDate "2169-05-07"^^xsd:date,
+        "2169-05-08"^^xsd:date,
+        "2169-05-09"^^xsd:date,
+        "2169-05-11"^^xsd:date,
+        "2169-05-12"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/236120.0> ;
+    ns1:identifier 2.3612e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/236120.0> ;
+    ns1:startDate "2169-05-07"^^xsd:date,
+        "2169-05-08"^^xsd:date .
+
+<http://example.com/patient/237528.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2108-12-20"^^xsd:date ;
+    ns1:deathDate "2192-05-15"^^xsd:date ;
+    ns1:endDate "2192-05-02"^^xsd:date,
+        "2192-05-03"^^xsd:date,
+        "2192-05-05"^^xsd:date,
+        "2192-05-06"^^xsd:date,
+        "2192-05-07"^^xsd:date,
+        "2192-05-08"^^xsd:date,
+        "2192-05-09"^^xsd:date,
+        "2192-05-10"^^xsd:date,
+        "2192-05-11"^^xsd:date,
+        "2192-05-12"^^xsd:date,
+        "2192-05-13"^^xsd:date,
+        "2192-05-14"^^xsd:date,
+        "2192-05-15"^^xsd:date,
+        "2192-05-16"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/237528.0> ;
+    ns1:identifier 2.37528e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/237528.0> ;
+    ns1:startDate "2192-05-01"^^xsd:date,
+        "2192-05-02"^^xsd:date,
+        "2192-05-03"^^xsd:date,
+        "2192-05-04"^^xsd:date,
+        "2192-05-05"^^xsd:date,
+        "2192-05-06"^^xsd:date,
+        "2192-05-07"^^xsd:date,
+        "2192-05-08"^^xsd:date,
+        "2192-05-09"^^xsd:date,
+        "2192-05-10"^^xsd:date,
+        "2192-05-11"^^xsd:date,
+        "2192-05-12"^^xsd:date,
+        "2192-05-13"^^xsd:date,
+        "2192-05-14"^^xsd:date,
+        "2192-05-15"^^xsd:date .
+
+<http://example.com/patient/238186.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2107-06-27"^^xsd:date ;
+    ns1:deathDate "2182-08-03"^^xsd:date ;
+    ns1:endDate "2180-07-19"^^xsd:date,
+        "2180-07-20"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/238186.0> ;
+    ns1:identifier 2.38186e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/238186.0> ;
+    ns1:startDate "2180-07-19"^^xsd:date,
+        "2180-07-20"^^xsd:date .
+
+<http://example.com/patient/238399.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2110-04-02"^^xsd:date ;
+    ns1:deathDate "2196-10-22"^^xsd:date ;
+    ns1:endDate "2193-10-16"^^xsd:date,
+        "2193-10-17"^^xsd:date,
+        "2193-10-18"^^xsd:date,
+        "2193-10-19"^^xsd:date,
+        "2193-10-20"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/238399.0> ;
+    ns1:identifier 2.38399e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/238399.0> ;
+    ns1:startDate "2193-10-16"^^xsd:date,
+        "2193-10-17"^^xsd:date,
+        "2193-10-18"^^xsd:date .
+
+<http://example.com/patient/239396.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2078-06-16"^^xsd:date ;
+    ns1:deathDate "2124-01-29"^^xsd:date ;
+    ns1:endDate "2123-11-25"^^xsd:date,
+        "2123-11-26"^^xsd:date,
+        "2123-11-27"^^xsd:date,
+        "2123-11-28"^^xsd:date,
+        "2123-11-29"^^xsd:date,
+        "2123-11-30"^^xsd:date,
+        "2123-12-02"^^xsd:date,
+        "2123-12-03"^^xsd:date,
+        "2123-12-04"^^xsd:date,
+        "2123-12-05"^^xsd:date,
+        "2123-12-06"^^xsd:date,
+        "2123-12-07"^^xsd:date,
+        "2123-12-08"^^xsd:date,
+        "2123-12-09"^^xsd:date,
+        "2123-12-12"^^xsd:date,
+        "2123-12-13"^^xsd:date,
+        "2123-12-14"^^xsd:date,
+        "2123-12-15"^^xsd:date,
+        "2123-12-16"^^xsd:date,
+        "2123-12-17"^^xsd:date,
+        "2123-12-18"^^xsd:date,
+        "2123-12-19"^^xsd:date,
+        "2123-12-20"^^xsd:date,
+        "2123-12-21"^^xsd:date,
+        "2123-12-22"^^xsd:date,
+        "2123-12-23"^^xsd:date,
+        "2123-12-24"^^xsd:date,
+        "2123-12-27"^^xsd:date,
+        "2123-12-30"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/239396.0> ;
+    ns1:identifier 2.39396e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/239396.0> ;
+    ns1:startDate "2123-11-25"^^xsd:date,
+        "2123-11-26"^^xsd:date,
+        "2123-11-27"^^xsd:date,
+        "2123-11-28"^^xsd:date,
+        "2123-11-29"^^xsd:date,
+        "2123-11-30"^^xsd:date,
+        "2123-12-01"^^xsd:date,
+        "2123-12-02"^^xsd:date,
+        "2123-12-03"^^xsd:date,
+        "2123-12-04"^^xsd:date,
+        "2123-12-05"^^xsd:date,
+        "2123-12-06"^^xsd:date,
+        "2123-12-07"^^xsd:date,
+        "2123-12-09"^^xsd:date,
+        "2123-12-10"^^xsd:date,
+        "2123-12-11"^^xsd:date,
+        "2123-12-12"^^xsd:date,
+        "2123-12-13"^^xsd:date,
+        "2123-12-14"^^xsd:date,
+        "2123-12-15"^^xsd:date,
+        "2123-12-17"^^xsd:date,
+        "2123-12-18"^^xsd:date,
+        "2123-12-19"^^xsd:date,
+        "2123-12-20"^^xsd:date,
+        "2123-12-21"^^xsd:date,
+        "2123-12-22"^^xsd:date,
+        "2123-12-24"^^xsd:date,
+        "2123-12-25"^^xsd:date,
+        "2123-12-26"^^xsd:date .
+
+<http://example.com/patient/239935.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2099-09-02"^^xsd:date ;
+    ns1:deathDate "2181-02-27"^^xsd:date ;
+    ns1:endDate "2179-04-18"^^xsd:date,
+        "2179-04-19"^^xsd:date,
+        "2179-04-20"^^xsd:date,
+        "2179-04-21"^^xsd:date,
+        "2179-04-23"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/239935.0> ;
+    ns1:identifier 2.39935e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/239935.0> ;
+    ns1:startDate "2179-04-18"^^xsd:date,
+        "2179-04-19"^^xsd:date,
+        "2179-04-20"^^xsd:date,
+        "2179-04-21"^^xsd:date .
+
+<http://example.com/patient/241992.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2079-01-29"^^xsd:date ;
+    ns1:deathDate "2166-05-30"^^xsd:date ;
+    ns1:endDate "2165-12-20"^^xsd:date,
+        "2165-12-21"^^xsd:date,
+        "2165-12-22"^^xsd:date,
+        "2165-12-24"^^xsd:date,
+        "2165-12-25"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/241992.0> ;
+    ns1:identifier 2.41992e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/241992.0> ;
+    ns1:startDate "2165-12-20"^^xsd:date,
+        "2165-12-21"^^xsd:date .
+
+<http://example.com/patient/242680.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2202-01-01"^^xsd:date,
+        "2202-01-03"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/242680.0> ;
+    ns1:identifier 2.4268e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/242680.0> ;
+    ns1:startDate "2202-01-01"^^xsd:date,
+        "2202-01-02"^^xsd:date .
+
+<http://example.com/patient/242790.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2031-08-12"^^xsd:date ;
+    ns1:deathDate "2120-08-13"^^xsd:date ;
+    ns1:endDate "2118-10-07"^^xsd:date,
+        "2118-10-08"^^xsd:date,
+        "2118-10-09"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/242790.0> ;
+    ns1:identifier 2.4279e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/242790.0> ;
+    ns1:startDate "2118-10-07"^^xsd:date,
+        "2118-10-08"^^xsd:date,
+        "2118-10-09"^^xsd:date .
+
+<http://example.com/patient/243123.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2051-03-24"^^xsd:date ;
+    ns1:deathDate "2105-02-16"^^xsd:date ;
+    ns1:endDate "2104-10-24"^^xsd:date,
+        "2104-10-25"^^xsd:date,
+        "2104-10-26"^^xsd:date,
+        "2104-10-27"^^xsd:date,
+        "2104-10-28"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/243123.0> ;
+    ns1:identifier 2.43123e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/243123.0> ;
+    ns1:startDate "2104-10-24"^^xsd:date,
+        "2104-10-25"^^xsd:date,
+        "2104-10-26"^^xsd:date .
+
+<http://example.com/patient/243229.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-29"^^xsd:date ;
+    ns1:deathDate "2200-12-31"^^xsd:date ;
+    ns1:endDate "2198-06-30"^^xsd:date,
+        "2198-07-01"^^xsd:date,
+        "2198-07-02"^^xsd:date,
+        "2198-07-03"^^xsd:date,
+        "2198-07-04"^^xsd:date,
+        "2198-07-05"^^xsd:date,
+        "2198-07-06"^^xsd:date,
+        "2198-07-07"^^xsd:date,
+        "2198-07-08"^^xsd:date,
+        "2198-07-09"^^xsd:date,
+        "2198-07-10"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/243229.0> ;
+    ns1:identifier 2.43229e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/243229.0> ;
+    ns1:startDate "2198-06-30"^^xsd:date,
+        "2198-07-01"^^xsd:date,
+        "2198-07-02"^^xsd:date,
+        "2198-07-03"^^xsd:date,
+        "2198-07-04"^^xsd:date,
+        "2198-07-05"^^xsd:date,
+        "2198-07-06"^^xsd:date,
+        "2198-07-07"^^xsd:date .
+
+<http://example.com/patient/243238.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1876-07-14"^^xsd:date ;
+    ns1:deathDate "2178-12-07"^^xsd:date ;
+    ns1:endDate "2176-07-15"^^xsd:date,
+        "2176-07-16"^^xsd:date,
+        "2176-07-17"^^xsd:date,
+        "2176-07-18"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/243238.0> ;
+    ns1:identifier 2.43238e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/243238.0> ;
+    ns1:startDate "2176-07-15"^^xsd:date,
+        "2176-07-16"^^xsd:date,
+        "2176-07-17"^^xsd:date .
+
+<http://example.com/patient/243600.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1880-02-29"^^xsd:date ;
+    ns1:deathDate "2180-03-20"^^xsd:date ;
+    ns1:endDate "2180-03-01"^^xsd:date,
+        "2180-03-02"^^xsd:date,
+        "2180-03-03"^^xsd:date,
+        "2180-03-04"^^xsd:date,
+        "2180-03-05"^^xsd:date,
+        "2180-03-06"^^xsd:date,
+        "2180-03-07"^^xsd:date,
+        "2180-03-10"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/243600.0> ;
+    ns1:identifier 2.436e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/243600.0> ;
+    ns1:startDate "2180-03-01"^^xsd:date,
+        "2180-03-02"^^xsd:date,
+        "2180-03-03"^^xsd:date,
+        "2180-03-04"^^xsd:date,
+        "2180-03-05"^^xsd:date .
+
+<http://example.com/patient/244243.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2061-06-13"^^xsd:date ;
+    ns1:deathDate "2112-02-11"^^xsd:date ;
+    ns1:endDate "2112-02-06"^^xsd:date,
+        "2112-02-07"^^xsd:date,
+        "2112-02-08"^^xsd:date,
+        "2112-02-09"^^xsd:date,
+        "2112-02-10"^^xsd:date,
+        "2112-02-11"^^xsd:date,
+        "2112-02-12"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/244243.0> ;
+    ns1:identifier 2.44243e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/244243.0> ;
+    ns1:startDate "2112-02-05"^^xsd:date,
+        "2112-02-06"^^xsd:date,
+        "2112-02-07"^^xsd:date,
+        "2112-02-08"^^xsd:date,
+        "2112-02-09"^^xsd:date,
+        "2112-02-10"^^xsd:date .
+
+<http://example.com/patient/245091.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2111-07-18"^^xsd:date ;
+    ns1:deathDate "2193-11-06"^^xsd:date ;
+    ns1:endDate "2189-09-09"^^xsd:date,
+        "2189-09-10"^^xsd:date,
+        "2189-09-12"^^xsd:date,
+        "2189-09-16"^^xsd:date,
+        "2189-09-18"^^xsd:date,
+        "2189-09-20"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/245091.0> ;
+    ns1:identifier 2.45091e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/245091.0> ;
+    ns1:startDate "2189-09-08"^^xsd:date,
+        "2189-09-09"^^xsd:date,
+        "2189-09-10"^^xsd:date,
+        "2189-09-11"^^xsd:date .
+
+<http://example.com/patient/246080.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2046-04-18"^^xsd:date ;
+    ns1:deathDate "2132-08-08"^^xsd:date ;
+    ns1:endDate "2132-08-06"^^xsd:date,
+        "2132-08-07"^^xsd:date,
+        "2132-08-08"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/246080.0> ;
+    ns1:identifier 2.4608e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/246080.0> ;
+    ns1:startDate "2132-08-06"^^xsd:date,
+        "2132-08-07"^^xsd:date .
+
+<http://example.com/patient/247686.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2036-03-10"^^xsd:date ;
+    ns1:deathDate "2120-09-18"^^xsd:date ;
+    ns1:endDate "2117-08-07"^^xsd:date,
+        "2117-08-08"^^xsd:date,
+        "2117-08-10"^^xsd:date,
+        "2117-08-11"^^xsd:date,
+        "2117-08-12"^^xsd:date,
+        "2117-08-13"^^xsd:date,
+        "2117-08-14"^^xsd:date,
+        "2117-08-15"^^xsd:date,
+        "2117-08-17"^^xsd:date,
+        "2117-08-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/247686.0> ;
+    ns1:identifier 2.47686e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/247686.0> ;
+    ns1:startDate "2117-08-06"^^xsd:date,
+        "2117-08-07"^^xsd:date,
+        "2117-08-08"^^xsd:date,
+        "2117-08-09"^^xsd:date,
+        "2117-08-10"^^xsd:date,
+        "2117-08-11"^^xsd:date,
+        "2117-08-12"^^xsd:date,
+        "2117-08-13"^^xsd:date,
+        "2117-08-14"^^xsd:date .
+
+<http://example.com/patient/248755.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2081-01-03"^^xsd:date ;
+    ns1:deathDate "2150-08-29"^^xsd:date ;
+    ns1:endDate "2150-08-23"^^xsd:date,
+        "2150-08-24"^^xsd:date,
+        "2150-08-25"^^xsd:date,
+        "2150-08-26"^^xsd:date,
+        "2150-08-27"^^xsd:date,
+        "2150-08-29"^^xsd:date,
+        "2150-08-30"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/248755.0> ;
+    ns1:identifier 2.48755e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/248755.0> ;
+    ns1:startDate "2150-08-23"^^xsd:date,
+        "2150-08-24"^^xsd:date,
+        "2150-08-25"^^xsd:date,
+        "2150-08-26"^^xsd:date,
+        "2150-08-29"^^xsd:date .
+
+<http://example.com/patient/249695.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2029-07-09"^^xsd:date ;
+    ns1:deathDate "2107-07-20"^^xsd:date ;
+    ns1:endDate "2107-01-29"^^xsd:date,
+        "2107-01-30"^^xsd:date,
+        "2107-01-31"^^xsd:date,
+        "2107-02-01"^^xsd:date,
+        "2107-02-02"^^xsd:date,
+        "2107-02-04"^^xsd:date,
+        "2107-02-10"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/249695.0> ;
+    ns1:identifier 2.49695e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/249695.0> ;
+    ns1:startDate "2107-01-29"^^xsd:date,
+        "2107-01-30"^^xsd:date,
+        "2107-01-31"^^xsd:date .
+
+<http://example.com/patient/249805.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2127-06-04"^^xsd:date ;
+    ns1:deathDate "2171-08-16"^^xsd:date ;
+    ns1:endDate "2171-07-13"^^xsd:date,
+        "2171-07-14"^^xsd:date,
+        "2171-07-15"^^xsd:date,
+        "2171-07-16"^^xsd:date,
+        "2171-07-17"^^xsd:date,
+        "2171-07-18"^^xsd:date,
+        "2171-07-19"^^xsd:date,
+        "2171-07-20"^^xsd:date,
+        "2171-07-21"^^xsd:date,
+        "2171-07-22"^^xsd:date,
+        "2171-07-23"^^xsd:date,
+        "2171-07-24"^^xsd:date,
+        "2171-07-25"^^xsd:date,
+        "2171-07-26"^^xsd:date,
+        "2171-07-27"^^xsd:date,
+        "2171-07-28"^^xsd:date,
+        "2171-07-29"^^xsd:date,
+        "2171-07-30"^^xsd:date,
+        "2171-07-31"^^xsd:date,
+        "2171-08-01"^^xsd:date,
+        "2171-08-02"^^xsd:date,
+        "2171-08-03"^^xsd:date,
+        "2171-08-04"^^xsd:date,
+        "2171-08-05"^^xsd:date,
+        "2171-08-06"^^xsd:date,
+        "2171-08-07"^^xsd:date,
+        "2171-08-08"^^xsd:date,
+        "2171-08-09"^^xsd:date,
+        "2171-08-10"^^xsd:date,
+        "2171-08-11"^^xsd:date,
+        "2171-08-12"^^xsd:date,
+        "2171-08-13"^^xsd:date,
+        "2171-08-14"^^xsd:date,
+        "2171-08-15"^^xsd:date,
+        "2171-08-16"^^xsd:date,
+        "2171-08-17"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/249805.0> ;
+    ns1:identifier 2.49805e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/249805.0> ;
+    ns1:startDate "2171-07-13"^^xsd:date,
+        "2171-07-14"^^xsd:date,
+        "2171-07-15"^^xsd:date,
+        "2171-07-16"^^xsd:date,
+        "2171-07-17"^^xsd:date,
+        "2171-07-18"^^xsd:date,
+        "2171-07-19"^^xsd:date,
+        "2171-07-20"^^xsd:date,
+        "2171-07-21"^^xsd:date,
+        "2171-07-22"^^xsd:date,
+        "2171-07-23"^^xsd:date,
+        "2171-07-24"^^xsd:date,
+        "2171-07-25"^^xsd:date,
+        "2171-07-26"^^xsd:date,
+        "2171-07-27"^^xsd:date,
+        "2171-07-28"^^xsd:date,
+        "2171-07-29"^^xsd:date,
+        "2171-07-30"^^xsd:date,
+        "2171-07-31"^^xsd:date,
+        "2171-08-01"^^xsd:date,
+        "2171-08-02"^^xsd:date,
+        "2171-08-03"^^xsd:date,
+        "2171-08-04"^^xsd:date,
+        "2171-08-05"^^xsd:date,
+        "2171-08-06"^^xsd:date,
+        "2171-08-07"^^xsd:date,
+        "2171-08-08"^^xsd:date,
+        "2171-08-09"^^xsd:date,
+        "2171-08-10"^^xsd:date,
+        "2171-08-11"^^xsd:date,
+        "2171-08-13"^^xsd:date,
+        "2171-08-14"^^xsd:date,
+        "2171-08-15"^^xsd:date,
+        "2171-08-16"^^xsd:date .
+
+<http://example.com/patient/250305.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2060-02-12"^^xsd:date ;
+    ns1:deathDate "2147-11-04"^^xsd:date ;
+    ns1:endDate "2147-10-04"^^xsd:date,
+        "2147-10-05"^^xsd:date,
+        "2147-10-06"^^xsd:date,
+        "2147-10-07"^^xsd:date,
+        "2147-10-08"^^xsd:date,
+        "2147-10-09"^^xsd:date,
+        "2147-10-10"^^xsd:date,
+        "2147-10-11"^^xsd:date,
+        "2147-10-12"^^xsd:date,
+        "2147-10-13"^^xsd:date,
+        "2147-10-14"^^xsd:date,
+        "2147-10-15"^^xsd:date,
+        "2147-10-16"^^xsd:date,
+        "2147-10-17"^^xsd:date,
+        "2147-10-18"^^xsd:date,
+        "2147-10-19"^^xsd:date,
+        "2147-10-20"^^xsd:date,
+        "2147-10-21"^^xsd:date,
+        "2147-10-22"^^xsd:date,
+        "2147-10-23"^^xsd:date,
+        "2147-10-24"^^xsd:date,
+        "2147-10-25"^^xsd:date,
+        "2147-10-27"^^xsd:date,
+        "2147-10-29"^^xsd:date,
+        "2147-10-30"^^xsd:date,
+        "2147-10-31"^^xsd:date,
+        "2147-11-01"^^xsd:date,
+        "2147-11-02"^^xsd:date,
+        "2147-11-03"^^xsd:date,
+        "2147-11-04"^^xsd:date,
+        "2147-11-05"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/250305.0> ;
+    ns1:identifier 2.50305e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/250305.0> ;
+    ns1:startDate "2147-10-04"^^xsd:date,
+        "2147-10-05"^^xsd:date,
+        "2147-10-07"^^xsd:date,
+        "2147-10-08"^^xsd:date,
+        "2147-10-09"^^xsd:date,
+        "2147-10-10"^^xsd:date,
+        "2147-10-11"^^xsd:date,
+        "2147-10-12"^^xsd:date,
+        "2147-10-13"^^xsd:date,
+        "2147-10-14"^^xsd:date,
+        "2147-10-15"^^xsd:date,
+        "2147-10-16"^^xsd:date,
+        "2147-10-17"^^xsd:date,
+        "2147-10-18"^^xsd:date,
+        "2147-10-19"^^xsd:date,
+        "2147-10-20"^^xsd:date,
+        "2147-10-21"^^xsd:date,
+        "2147-10-22"^^xsd:date,
+        "2147-10-23"^^xsd:date,
+        "2147-10-24"^^xsd:date,
+        "2147-10-25"^^xsd:date,
+        "2147-10-27"^^xsd:date,
+        "2147-10-28"^^xsd:date,
+        "2147-10-29"^^xsd:date,
+        "2147-10-30"^^xsd:date,
+        "2147-10-31"^^xsd:date,
+        "2147-11-01"^^xsd:date,
+        "2147-11-02"^^xsd:date .
+
+<http://example.com/patient/251281.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2074-09-29"^^xsd:date ;
+    ns1:deathDate "2160-06-08"^^xsd:date ;
+    ns1:endDate "2160-05-05"^^xsd:date,
+        "2160-05-06"^^xsd:date,
+        "2160-05-08"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/251281.0> ;
+    ns1:identifier 2.51281e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/251281.0> ;
+    ns1:startDate "2160-05-05"^^xsd:date,
+        "2160-05-06"^^xsd:date .
+
+<http://example.com/patient/251573.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2053-09-08"^^xsd:date ;
+    ns1:deathDate "2141-01-26"^^xsd:date ;
+    ns1:endDate "2141-01-25"^^xsd:date,
+        "2141-01-26"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/251573.0> ;
+    ns1:identifier 2.51573e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/251573.0> ;
+    ns1:startDate "2141-01-25"^^xsd:date,
+        "2141-01-26"^^xsd:date .
+
+<http://example.com/patient/253931.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2200-03-19"^^xsd:date,
+        "2200-03-20"^^xsd:date,
+        "2200-03-21"^^xsd:date,
+        "2200-03-22"^^xsd:date,
+        "2200-03-23"^^xsd:date,
+        "2200-03-24"^^xsd:date,
+        "2200-03-25"^^xsd:date,
+        "2200-03-26"^^xsd:date,
+        "2200-03-27"^^xsd:date,
+        "2200-03-28"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/253931.0> ;
+    ns1:identifier 2.53931e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/253931.0> ;
+    ns1:startDate "2200-03-18"^^xsd:date,
+        "2200-03-19"^^xsd:date,
+        "2200-03-20"^^xsd:date,
+        "2200-03-21"^^xsd:date,
+        "2200-03-22"^^xsd:date,
+        "2200-03-23"^^xsd:date,
+        "2200-03-24"^^xsd:date,
+        "2200-03-25"^^xsd:date,
+        "2200-03-26"^^xsd:date,
+        "2200-03-27"^^xsd:date,
+        "2200-03-28"^^xsd:date .
+
+<http://example.com/patient/254543.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2051-04-21"^^xsd:date ;
+    ns1:deathDate "2133-09-09"^^xsd:date ;
+    ns1:endDate "2132-12-08"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/254543.0> ;
+    ns1:identifier 2.54543e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/254543.0> ;
+    ns1:startDate "2132-12-06"^^xsd:date .
+
+<http://example.com/patient/254635.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2016-12-05"^^xsd:date ;
+    ns1:deathDate "2105-05-18"^^xsd:date ;
+    ns1:endDate "2102-09-01"^^xsd:date,
+        "2102-09-02"^^xsd:date,
+        "2102-09-03"^^xsd:date,
+        "2102-09-04"^^xsd:date,
+        "2102-09-06"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/254635.0> ;
+    ns1:identifier 2.54635e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/254635.0> ;
+    ns1:startDate "2102-09-01"^^xsd:date .
+
+<http://example.com/patient/256338.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2090-11-16"^^xsd:date ;
+    ns1:deathDate "2146-01-25"^^xsd:date ;
+    ns1:endDate "2145-12-02"^^xsd:date,
+        "2145-12-03"^^xsd:date,
+        "2145-12-04"^^xsd:date,
+        "2145-12-05"^^xsd:date,
+        "2145-12-06"^^xsd:date,
+        "2145-12-07"^^xsd:date,
+        "2145-12-08"^^xsd:date,
+        "2145-12-10"^^xsd:date,
+        "2145-12-11"^^xsd:date,
+        "2145-12-12"^^xsd:date,
+        "2145-12-15"^^xsd:date,
+        "2145-12-16"^^xsd:date,
+        "2145-12-17"^^xsd:date,
+        "2145-12-18"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/256338.0> ;
+    ns1:identifier 2.56338e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/256338.0> ;
+    ns1:startDate "2145-12-02"^^xsd:date,
+        "2145-12-03"^^xsd:date,
+        "2145-12-04"^^xsd:date,
+        "2145-12-05"^^xsd:date,
+        "2145-12-07"^^xsd:date,
+        "2145-12-08"^^xsd:date,
+        "2145-12-09"^^xsd:date,
+        "2145-12-10"^^xsd:date,
+        "2145-12-11"^^xsd:date,
+        "2145-12-12"^^xsd:date,
+        "2145-12-14"^^xsd:date,
+        "2145-12-15"^^xsd:date .
+
+<http://example.com/patient/256345.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2029-07-09"^^xsd:date ;
+    ns1:deathDate "2107-07-20"^^xsd:date ;
+    ns1:endDate "2107-01-05"^^xsd:date,
+        "2107-01-06"^^xsd:date,
+        "2107-01-07"^^xsd:date,
+        "2107-01-08"^^xsd:date,
+        "2107-01-09"^^xsd:date,
+        "2107-01-10"^^xsd:date,
+        "2107-01-11"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/256345.0> ;
+    ns1:identifier 2.56345e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/256345.0> ;
+    ns1:startDate "2107-01-05"^^xsd:date,
+        "2107-01-06"^^xsd:date,
+        "2107-01-07"^^xsd:date,
+        "2107-01-08"^^xsd:date,
+        "2107-01-09"^^xsd:date .
+
+<http://example.com/patient/256542.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2045-10-07"^^xsd:date ;
+    ns1:deathDate "2131-07-28"^^xsd:date ;
+    ns1:endDate "2131-07-29"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/256542.0> ;
+    ns1:identifier 2.56542e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/256542.0> ;
+    ns1:startDate "2131-07-28"^^xsd:date .
+
+<http://example.com/patient/256746.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2051-03-23"^^xsd:date ;
+    ns1:deathDate "2119-11-14"^^xsd:date ;
+    ns1:endDate "2119-10-17"^^xsd:date,
+        "2119-10-18"^^xsd:date,
+        "2119-10-19"^^xsd:date,
+        "2119-10-20"^^xsd:date,
+        "2119-10-21"^^xsd:date,
+        "2119-10-22"^^xsd:date,
+        "2119-10-23"^^xsd:date,
+        "2119-10-24"^^xsd:date,
+        "2119-10-25"^^xsd:date,
+        "2119-10-26"^^xsd:date,
+        "2119-10-29"^^xsd:date,
+        "2119-10-30"^^xsd:date,
+        "2119-11-01"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/256746.0> ;
+    ns1:identifier 2.56746e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/256746.0> ;
+    ns1:startDate "2119-10-17"^^xsd:date,
+        "2119-10-18"^^xsd:date,
+        "2119-10-19"^^xsd:date,
+        "2119-10-20"^^xsd:date,
+        "2119-10-21"^^xsd:date .
+
+<http://example.com/patient/258147.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2076-05-06"^^xsd:date ;
+    ns1:deathDate "2150-12-03"^^xsd:date ;
+    ns1:endDate "2147-02-08"^^xsd:date,
+        "2147-02-09"^^xsd:date,
+        "2147-02-10"^^xsd:date,
+        "2147-02-11"^^xsd:date,
+        "2147-02-12"^^xsd:date,
+        "2147-02-13"^^xsd:date,
+        "2147-02-14"^^xsd:date,
+        "2147-02-16"^^xsd:date,
+        "2147-02-17"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/258147.0> ;
+    ns1:identifier 2.58147e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/258147.0> ;
+    ns1:startDate "2147-02-07"^^xsd:date,
+        "2147-02-08"^^xsd:date,
+        "2147-02-09"^^xsd:date,
+        "2147-02-10"^^xsd:date,
+        "2147-02-11"^^xsd:date,
+        "2147-02-12"^^xsd:date,
+        "2147-02-13"^^xsd:date,
+        "2147-02-14"^^xsd:date,
+        "2147-02-15"^^xsd:date .
+
+<http://example.com/patient/261743.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2086-12-16"^^xsd:date ;
+    ns1:deathDate "2165-01-17"^^xsd:date ;
+    ns1:endDate "2163-11-23"^^xsd:date,
+        "2163-11-24"^^xsd:date,
+        "2163-11-29"^^xsd:date,
+        "2163-12-01"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/261743.0> ;
+    ns1:identifier 2.61743e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/261743.0> ;
+    ns1:startDate "2163-11-22"^^xsd:date,
+        "2163-11-23"^^xsd:date .
+
+<http://example.com/patient/261764.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2108-12-20"^^xsd:date ;
+    ns1:deathDate "2192-05-15"^^xsd:date ;
+    ns1:endDate "2192-03-29"^^xsd:date,
+        "2192-03-30"^^xsd:date,
+        "2192-03-31"^^xsd:date,
+        "2192-04-01"^^xsd:date,
+        "2192-04-03"^^xsd:date,
+        "2192-04-04"^^xsd:date,
+        "2192-04-05"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/261764.0> ;
+    ns1:identifier 2.61764e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/261764.0> ;
+    ns1:startDate "2192-03-29"^^xsd:date,
+        "2192-03-30"^^xsd:date,
+        "2192-03-31"^^xsd:date .
+
+<http://example.com/patient/262670.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2150-12-07"^^xsd:date ;
+    ns1:deathDate "2170-12-03"^^xsd:date ;
+    ns1:endDate "2170-12-03"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/262670.0> ;
+    ns1:identifier 2.6267e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/262670.0> ;
+    ns1:startDate "2170-12-03"^^xsd:date .
+
+<http://example.com/patient/263095.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2201-08-12"^^xsd:date,
+        "2201-08-13"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/263095.0> ;
+    ns1:identifier 2.63095e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/263095.0> ;
+    ns1:startDate "2201-08-11"^^xsd:date,
+        "2201-08-12"^^xsd:date .
+
+<http://example.com/patient/263370.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2110-03-25"^^xsd:date ;
+    ns1:deathDate "2192-12-12"^^xsd:date ;
+    ns1:endDate "2192-11-20"^^xsd:date,
+        "2192-11-22"^^xsd:date,
+        "2192-11-24"^^xsd:date,
+        "2192-11-25"^^xsd:date,
+        "2192-11-26"^^xsd:date,
+        "2192-11-27"^^xsd:date,
+        "2192-11-30"^^xsd:date,
+        "2192-12-03"^^xsd:date,
+        "2192-12-04"^^xsd:date,
+        "2192-12-06"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/263370.0> ;
+    ns1:identifier 2.6337e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/263370.0> ;
+    ns1:startDate "2192-11-20"^^xsd:date,
+        "2192-11-21"^^xsd:date,
+        "2192-11-22"^^xsd:date,
+        "2192-11-23"^^xsd:date,
+        "2192-11-24"^^xsd:date,
+        "2192-11-25"^^xsd:date .
+
+<http://example.com/patient/263934.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2097-01-16"^^xsd:date ;
+    ns1:deathDate "2180-02-01"^^xsd:date ;
+    ns1:endDate "2180-01-22"^^xsd:date,
+        "2180-01-23"^^xsd:date,
+        "2180-01-24"^^xsd:date,
+        "2180-01-27"^^xsd:date,
+        "2180-01-29"^^xsd:date,
+        "2180-01-30"^^xsd:date,
+        "2180-02-01"^^xsd:date,
+        "nan"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/263934.0> ;
+    ns1:identifier 2.63934e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/263934.0> ;
+    ns1:startDate "2180-01-22"^^xsd:date,
+        "2180-01-23"^^xsd:date,
+        "2180-01-24"^^xsd:date,
+        "2180-01-25"^^xsd:date,
+        "2180-01-26"^^xsd:date,
+        "2180-01-27"^^xsd:date,
+        "2180-01-28"^^xsd:date,
+        "2180-01-29"^^xsd:date,
+        "2180-01-30"^^xsd:date,
+        "2180-02-01"^^xsd:date .
+
+<http://example.com/patient/264258.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2051-07-25"^^xsd:date ;
+    ns1:deathDate "2107-07-13"^^xsd:date ;
+    ns1:endDate "2106-08-31"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/264258.0> ;
+    ns1:identifier 2.64258e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/264258.0> ;
+    ns1:startDate "2106-08-31"^^xsd:date .
+
+<http://example.com/patient/264446.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2038-09-03"^^xsd:date ;
+    ns1:deathDate "2125-10-07"^^xsd:date ;
+    ns1:endDate "2125-10-05"^^xsd:date,
+        "2125-10-06"^^xsd:date,
+        "2125-10-07"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/264446.0> ;
+    ns1:identifier 2.64446e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/264446.0> ;
+    ns1:startDate "2125-10-05"^^xsd:date,
+        "2125-10-06"^^xsd:date .
+
+<http://example.com/patient/265505.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2200-10-30"^^xsd:date,
+        "2200-10-31"^^xsd:date,
+        "2200-11-01"^^xsd:date,
+        "2200-11-02"^^xsd:date,
+        "2200-11-03"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/265505.0> ;
+    ns1:identifier 2.65505e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/265505.0> ;
+    ns1:startDate "2200-10-30"^^xsd:date,
+        "2200-10-31"^^xsd:date,
+        "2200-11-01"^^xsd:date,
+        "2200-11-02"^^xsd:date,
+        "2200-11-03"^^xsd:date .
+
+<http://example.com/patient/265615.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2057-11-15"^^xsd:date ;
+    ns1:deathDate "2114-02-20"^^xsd:date ;
+    ns1:endDate "2112-05-06"^^xsd:date,
+        "2112-05-08"^^xsd:date,
+        "2112-05-09"^^xsd:date,
+        "2112-05-11"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/265615.0> ;
+    ns1:identifier 2.65615e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/265615.0> ;
+    ns1:startDate "2112-05-05"^^xsd:date,
+        "2112-05-06"^^xsd:date .
+
+<http://example.com/patient/266122.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2109-04-07"^^xsd:date ;
+    ns1:deathDate "2191-02-07"^^xsd:date ;
+    ns1:endDate "2185-04-14"^^xsd:date,
+        "2185-04-15"^^xsd:date,
+        "2185-04-16"^^xsd:date,
+        "2185-04-17"^^xsd:date,
+        "2185-04-18"^^xsd:date,
+        "2185-04-19"^^xsd:date,
+        "2185-04-20"^^xsd:date,
+        "2185-04-21"^^xsd:date,
+        "2185-04-24"^^xsd:date,
+        "2185-04-26"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/266122.0> ;
+    ns1:identifier 2.66122e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/266122.0> ;
+    ns1:startDate "2185-04-14"^^xsd:date,
+        "2185-04-15"^^xsd:date,
+        "2185-04-16"^^xsd:date .
+
+<http://example.com/patient/267090.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2050-03-29"^^xsd:date ;
+    ns1:deathDate "2138-05-21"^^xsd:date ;
+    ns1:endDate "2138-04-08"^^xsd:date,
+        "2138-04-09"^^xsd:date,
+        "2138-04-10"^^xsd:date,
+        "2138-04-11"^^xsd:date,
+        "2138-04-12"^^xsd:date,
+        "2138-04-13"^^xsd:date,
+        "2138-04-14"^^xsd:date,
+        "2138-04-15"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/267090.0> ;
+    ns1:identifier 2.6709e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/267090.0> ;
+    ns1:startDate "2138-04-08"^^xsd:date,
+        "2138-04-09"^^xsd:date,
+        "2138-04-10"^^xsd:date,
+        "2138-04-11"^^xsd:date,
+        "2138-04-12"^^xsd:date .
+
+<http://example.com/patient/267267.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2202-10-03"^^xsd:date,
+        "2202-10-04"^^xsd:date,
+        "2202-10-05"^^xsd:date,
+        "2202-10-06"^^xsd:date,
+        "2202-10-08"^^xsd:date,
+        "2202-10-09"^^xsd:date,
+        "2202-10-10"^^xsd:date,
+        "2202-10-11"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/267267.0> ;
+    ns1:identifier 2.67267e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/267267.0> ;
+    ns1:startDate "2202-10-03"^^xsd:date,
+        "2202-10-04"^^xsd:date,
+        "2202-10-05"^^xsd:date .
+
+<http://example.com/patient/268282.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2088-05-05"^^xsd:date ;
+    ns1:deathDate "2115-05-15"^^xsd:date ;
+    ns1:endDate "2115-05-13"^^xsd:date,
+        "2115-05-14"^^xsd:date,
+        "2115-05-15"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/268282.0> ;
+    ns1:identifier 2.68282e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/268282.0> ;
+    ns1:startDate "2115-05-13"^^xsd:date,
+        "2115-05-14"^^xsd:date,
+        "2115-05-15"^^xsd:date .
+
+<http://example.com/patient/269173.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2063-07-05"^^xsd:date ;
+    ns1:deathDate "2130-11-03"^^xsd:date ;
+    ns1:endDate "2130-08-13"^^xsd:date,
+        "2130-08-14"^^xsd:date,
+        "2130-08-15"^^xsd:date,
+        "2130-08-16"^^xsd:date,
+        "2130-08-17"^^xsd:date,
+        "2130-08-18"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/269173.0> ;
+    ns1:identifier 2.69173e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/269173.0> ;
+    ns1:startDate "2130-08-12"^^xsd:date,
+        "2130-08-13"^^xsd:date,
+        "2130-08-14"^^xsd:date,
+        "2130-08-15"^^xsd:date,
+        "2130-08-16"^^xsd:date .
+
+<http://example.com/patient/270154.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2071-02-11"^^xsd:date ;
+    ns1:deathDate "2152-10-20"^^xsd:date ;
+    ns1:endDate "2152-10-03"^^xsd:date,
+        "2152-10-04"^^xsd:date,
+        "2152-10-05"^^xsd:date,
+        "2152-10-06"^^xsd:date,
+        "2152-10-07"^^xsd:date,
+        "2152-10-09"^^xsd:date,
+        "2152-10-10"^^xsd:date,
+        "2152-10-11"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/270154.0> ;
+    ns1:identifier 2.70154e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/270154.0> ;
+    ns1:startDate "2152-10-03"^^xsd:date,
+        "2152-10-04"^^xsd:date,
+        "2152-10-05"^^xsd:date,
+        "2152-10-06"^^xsd:date,
+        "2152-10-07"^^xsd:date .
+
+<http://example.com/patient/271544.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2181-04-19"^^xsd:date ;
+    ns1:deathDate "2201-11-08"^^xsd:date ;
+    ns1:endDate "2198-06-29"^^xsd:date,
+        "2198-06-30"^^xsd:date,
+        "2198-07-01"^^xsd:date,
+        "2198-07-02"^^xsd:date,
+        "2198-07-03"^^xsd:date,
+        "2198-07-04"^^xsd:date,
+        "2198-07-05"^^xsd:date,
+        "2198-07-06"^^xsd:date,
+        "2198-07-07"^^xsd:date,
+        "2198-07-08"^^xsd:date,
+        "2198-07-09"^^xsd:date,
+        "2198-07-10"^^xsd:date,
+        "2198-07-11"^^xsd:date,
+        "2198-07-12"^^xsd:date,
+        "2198-07-13"^^xsd:date,
+        "2198-07-14"^^xsd:date,
+        "2198-07-15"^^xsd:date,
+        "2198-07-16"^^xsd:date,
+        "2198-07-17"^^xsd:date,
+        "2198-07-18"^^xsd:date,
+        "2198-07-19"^^xsd:date,
+        "2198-07-20"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/271544.0> ;
+    ns1:identifier 2.71544e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/271544.0> ;
+    ns1:startDate "2198-06-28"^^xsd:date,
+        "2198-06-29"^^xsd:date,
+        "2198-06-30"^^xsd:date,
+        "2198-07-01"^^xsd:date,
+        "2198-07-02"^^xsd:date,
+        "2198-07-03"^^xsd:date,
+        "2198-07-04"^^xsd:date,
+        "2198-07-05"^^xsd:date,
+        "2198-07-06"^^xsd:date,
+        "2198-07-07"^^xsd:date,
+        "2198-07-08"^^xsd:date,
+        "2198-07-10"^^xsd:date,
+        "2198-07-11"^^xsd:date,
+        "2198-07-12"^^xsd:date,
+        "2198-07-13"^^xsd:date,
+        "2198-07-14"^^xsd:date,
+        "2198-07-15"^^xsd:date,
+        "2198-07-16"^^xsd:date,
+        "2198-07-17"^^xsd:date,
+        "2198-07-18"^^xsd:date,
+        "2198-07-19"^^xsd:date .
+
+<http://example.com/patient/272047.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2061-10-23"^^xsd:date ;
+    ns1:deathDate "2150-09-05"^^xsd:date ;
+    ns1:endDate "2147-02-23"^^xsd:date,
+        "2147-02-24"^^xsd:date,
+        "2147-02-25"^^xsd:date,
+        "2147-02-26"^^xsd:date,
+        "2147-02-27"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/272047.0> ;
+    ns1:identifier 2.72047e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/272047.0> ;
+    ns1:startDate "2147-02-23"^^xsd:date,
+        "2147-02-24"^^xsd:date,
+        "2147-02-25"^^xsd:date,
+        "2147-02-26"^^xsd:date .
+
+<http://example.com/patient/273347.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1880-02-29"^^xsd:date ;
+    ns1:deathDate "2180-03-20"^^xsd:date ;
+    ns1:endDate "2180-03-16"^^xsd:date,
+        "2180-03-17"^^xsd:date,
+        "2180-03-18"^^xsd:date,
+        "2180-03-19"^^xsd:date,
+        "2180-03-20"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/273347.0> ;
+    ns1:identifier 2.73347e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/273347.0> ;
+    ns1:startDate "2180-03-16"^^xsd:date,
+        "2180-03-17"^^xsd:date,
+        "2180-03-18"^^xsd:date,
+        "2180-03-19"^^xsd:date,
+        "2180-03-20"^^xsd:date .
+
+<http://example.com/patient/274509.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2044-06-27"^^xsd:date ;
+    ns1:deathDate "2117-04-04"^^xsd:date ;
+    ns1:endDate "2117-03-24"^^xsd:date,
+        "2117-03-25"^^xsd:date,
+        "2117-03-26"^^xsd:date,
+        "2117-03-27"^^xsd:date,
+        "2117-03-28"^^xsd:date,
+        "2117-03-29"^^xsd:date,
+        "2117-03-30"^^xsd:date,
+        "2117-03-31"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/274509.0> ;
+    ns1:identifier 2.74509e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/274509.0> ;
+    ns1:startDate "2117-03-24"^^xsd:date,
+        "2117-03-25"^^xsd:date,
+        "2117-03-26"^^xsd:date,
+        "2117-03-27"^^xsd:date,
+        "2117-03-28"^^xsd:date,
+        "2117-03-29"^^xsd:date .
+
+<http://example.com/patient/276601.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2068-03-04"^^xsd:date ;
+    ns1:deathDate "2144-10-31"^^xsd:date ;
+    ns1:endDate "2144-10-15"^^xsd:date,
+        "2144-10-16"^^xsd:date,
+        "2144-10-17"^^xsd:date,
+        "2144-10-18"^^xsd:date,
+        "2144-10-19"^^xsd:date,
+        "2144-10-20"^^xsd:date,
+        "2144-10-24"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/276601.0> ;
+    ns1:identifier 2.76601e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/276601.0> ;
+    ns1:startDate "2144-10-15"^^xsd:date,
+        "2144-10-16"^^xsd:date,
+        "2144-10-17"^^xsd:date,
+        "2144-10-18"^^xsd:date,
+        "2144-10-19"^^xsd:date,
+        "2144-10-20"^^xsd:date,
+        "2144-10-21"^^xsd:date,
+        "2144-10-22"^^xsd:date,
+        "2144-10-23"^^xsd:date .
+
+<http://example.com/patient/277021.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1895-05-17"^^xsd:date ;
+    ns1:deathDate "2195-11-24"^^xsd:date ;
+    ns1:endDate "2195-05-17"^^xsd:date,
+        "2195-05-18"^^xsd:date,
+        "2195-05-19"^^xsd:date,
+        "2195-05-20"^^xsd:date,
+        "2195-05-21"^^xsd:date,
+        "2195-05-22"^^xsd:date,
+        "2195-05-23"^^xsd:date,
+        "2195-05-24"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/277021.0> ;
+    ns1:identifier 2.77021e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/277021.0> ;
+    ns1:startDate "2195-05-17"^^xsd:date,
+        "2195-05-18"^^xsd:date,
+        "2195-05-19"^^xsd:date,
+        "2195-05-20"^^xsd:date .
+
+<http://example.com/patient/277238.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2098-04-29"^^xsd:date ;
+    ns1:deathDate "2165-01-16"^^xsd:date ;
+    ns1:endDate "2162-01-17"^^xsd:date,
+        "2162-01-18"^^xsd:date,
+        "2162-01-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/277238.0> ;
+    ns1:identifier 2.77238e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/277238.0> ;
+    ns1:startDate "2162-01-17"^^xsd:date .
+
+<http://example.com/patient/277403.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2029-07-09"^^xsd:date ;
+    ns1:deathDate "2107-07-20"^^xsd:date ;
+    ns1:endDate "2107-05-13"^^xsd:date,
+        "2107-05-14"^^xsd:date,
+        "2107-05-15"^^xsd:date,
+        "2107-05-16"^^xsd:date,
+        "2107-05-18"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/277403.0> ;
+    ns1:identifier 2.77403e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/277403.0> ;
+    ns1:startDate "2107-05-13"^^xsd:date,
+        "2107-05-14"^^xsd:date,
+        "2107-05-15"^^xsd:date .
+
+<http://example.com/patient/279183.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2073-06-05"^^xsd:date ;
+    ns1:deathDate "2155-03-12"^^xsd:date ;
+    ns1:endDate "2155-03-10"^^xsd:date,
+        "2155-03-11"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/279183.0> ;
+    ns1:identifier 2.79183e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/279183.0> ;
+    ns1:startDate "2155-03-10"^^xsd:date,
+        "2155-03-11"^^xsd:date .
+
+<http://example.com/patient/279529.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2112-01-20"^^xsd:date ;
+    ns1:deathDate "2184-08-26"^^xsd:date ;
+    ns1:endDate "2184-08-04"^^xsd:date,
+        "2184-08-05"^^xsd:date,
+        "2184-08-06"^^xsd:date,
+        "2184-08-07"^^xsd:date,
+        "2184-08-08"^^xsd:date,
+        "2184-08-10"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/279529.0> ;
+    ns1:identifier 2.79529e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/279529.0> ;
+    ns1:startDate "2184-08-04"^^xsd:date,
+        "2184-08-05"^^xsd:date,
+        "2184-08-06"^^xsd:date,
+        "2184-08-07"^^xsd:date .
+
+<http://example.com/patient/279554.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2063-07-05"^^xsd:date ;
+    ns1:deathDate "2130-11-03"^^xsd:date ;
+    ns1:endDate "2130-02-04"^^xsd:date,
+        "2130-02-05"^^xsd:date,
+        "2130-02-06"^^xsd:date,
+        "2130-02-07"^^xsd:date,
+        "2130-02-08"^^xsd:date,
+        "2130-02-09"^^xsd:date,
+        "2130-02-10"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/279554.0> ;
+    ns1:identifier 2.79554e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/279554.0> ;
+    ns1:startDate "2130-02-04"^^xsd:date,
+        "2130-02-05"^^xsd:date,
+        "2130-02-06"^^xsd:date,
+        "2130-02-07"^^xsd:date .
+
+<http://example.com/patient/279721.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2072-12-03"^^xsd:date ;
+    ns1:deathDate "2160-12-27"^^xsd:date ;
+    ns1:endDate "2160-12-26"^^xsd:date,
+        "2160-12-27"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/279721.0> ;
+    ns1:identifier 2.79721e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/279721.0> ;
+    ns1:startDate "2160-12-26"^^xsd:date,
+        "2160-12-27"^^xsd:date .
+
+<http://example.com/patient/280943.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2202-02-16"^^xsd:date,
+        "2202-02-17"^^xsd:date,
+        "2202-02-18"^^xsd:date,
+        "2202-02-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/280943.0> ;
+    ns1:identifier 2.80943e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/280943.0> ;
+    ns1:startDate "2202-02-16"^^xsd:date,
+        "2202-02-17"^^xsd:date .
+
+<http://example.com/patient/281609.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2083-09-20"^^xsd:date ;
+    ns1:deathDate "2127-10-28"^^xsd:date ;
+    ns1:endDate "2127-10-06"^^xsd:date,
+        "2127-10-07"^^xsd:date,
+        "2127-10-08"^^xsd:date,
+        "2127-10-09"^^xsd:date,
+        "2127-10-10"^^xsd:date,
+        "2127-10-11"^^xsd:date,
+        "2127-10-12"^^xsd:date,
+        "2127-10-13"^^xsd:date,
+        "2127-10-14"^^xsd:date,
+        "2127-10-15"^^xsd:date,
+        "2127-10-16"^^xsd:date,
+        "2127-10-17"^^xsd:date,
+        "2127-10-18"^^xsd:date,
+        "2127-10-19"^^xsd:date,
+        "2127-10-20"^^xsd:date,
+        "2127-10-21"^^xsd:date,
+        "2127-10-22"^^xsd:date,
+        "2127-10-23"^^xsd:date,
+        "2127-10-24"^^xsd:date,
+        "2127-10-26"^^xsd:date,
+        "2127-10-27"^^xsd:date,
+        "2127-10-28"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/281609.0> ;
+    ns1:identifier 2.81609e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/281609.0> ;
+    ns1:startDate "2127-10-07"^^xsd:date,
+        "2127-10-08"^^xsd:date,
+        "2127-10-09"^^xsd:date,
+        "2127-10-10"^^xsd:date,
+        "2127-10-11"^^xsd:date,
+        "2127-10-12"^^xsd:date,
+        "2127-10-14"^^xsd:date,
+        "2127-10-15"^^xsd:date,
+        "2127-10-16"^^xsd:date,
+        "2127-10-17"^^xsd:date,
+        "2127-10-18"^^xsd:date,
+        "2127-10-19"^^xsd:date,
+        "2127-10-20"^^xsd:date,
+        "2127-10-22"^^xsd:date,
+        "2127-10-23"^^xsd:date,
+        "2127-10-25"^^xsd:date,
+        "2127-10-27"^^xsd:date .
+
+<http://example.com/patient/282566.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2072-05-05"^^xsd:date ;
+    ns1:deathDate "2138-11-18"^^xsd:date ;
+    ns1:endDate "2138-11-12"^^xsd:date,
+        "2138-11-19"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/282566.0> ;
+    ns1:identifier 2.82566e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/282566.0> ;
+    ns1:startDate "2138-11-12"^^xsd:date,
+        "2138-11-14"^^xsd:date .
+
+<http://example.com/patient/282640.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2057-11-15"^^xsd:date ;
+    ns1:deathDate "2114-02-20"^^xsd:date ;
+    ns1:endDate "2112-05-25"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/282640.0> ;
+    ns1:identifier 2.8264e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/282640.0> ;
+    ns1:startDate "2112-05-24"^^xsd:date .
+
+<http://example.com/patient/283181.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2046-07-05"^^xsd:date ;
+    ns1:deathDate "2128-11-09"^^xsd:date ;
+    ns1:endDate "2128-11-09"^^xsd:date,
+        "2128-11-10"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/283181.0> ;
+    ns1:identifier 2.83181e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/283181.0> ;
+    ns1:startDate "2128-11-09"^^xsd:date .
+
+<http://example.com/patient/283875.0> a ns1:MedicalEntity ;
+    ns1:birthDate "1851-09-12"^^xsd:date ;
+    ns1:deathDate "2151-09-15"^^xsd:date ;
+    ns1:endDate "2151-09-13"^^xsd:date,
+        "2151-09-14"^^xsd:date,
+        "2151-09-15"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/283875.0> ;
+    ns1:identifier 2.83875e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/283875.0> ;
+    ns1:startDate "2151-09-13"^^xsd:date,
+        "2151-09-14"^^xsd:date .
+
+<http://example.com/patient/285272.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2198-10-29"^^xsd:date,
+        "2198-10-30"^^xsd:date,
+        "2198-10-31"^^xsd:date,
+        "2198-11-01"^^xsd:date,
+        "2198-11-02"^^xsd:date,
+        "2198-11-03"^^xsd:date,
+        "2198-11-04"^^xsd:date,
+        "2198-11-05"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/285272.0> ;
+    ns1:identifier 2.85272e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/285272.0> ;
+    ns1:startDate "2198-10-29"^^xsd:date,
+        "2198-10-30"^^xsd:date,
+        "2198-10-31"^^xsd:date,
+        "2198-11-01"^^xsd:date .
+
+<http://example.com/patient/285353.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2201-05-12"^^xsd:date,
+        "2201-05-13"^^xsd:date,
+        "2201-05-14"^^xsd:date,
+        "2201-05-15"^^xsd:date,
+        "2201-05-16"^^xsd:date,
+        "2201-05-17"^^xsd:date,
+        "2201-05-19"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/285353.0> ;
+    ns1:identifier 2.85353e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/285353.0> ;
+    ns1:startDate "2201-05-12"^^xsd:date,
+        "2201-05-13"^^xsd:date,
+        "2201-05-14"^^xsd:date .
+
+<http://example.com/patient/285369.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2079-08-17"^^xsd:date ;
+    ns1:deathDate "2156-02-08"^^xsd:date ;
+    ns1:endDate "2155-12-18"^^xsd:date,
+        "2155-12-19"^^xsd:date,
+        "2155-12-22"^^xsd:date,
+        "2155-12-24"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/285369.0> ;
+    ns1:identifier 2.85369e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/285369.0> ;
+    ns1:startDate "2155-12-17"^^xsd:date,
+        "2155-12-18"^^xsd:date .
+
+<http://example.com/patient/285750.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2082-06-27"^^xsd:date ;
+    ns1:deathDate "2169-05-12"^^xsd:date ;
+    ns1:endDate "2169-05-12"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/285750.0> ;
+    ns1:identifier 2.8575e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/285750.0> ;
+    ns1:startDate "2169-05-12"^^xsd:date .
+
+<http://example.com/patient/285789.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2046-02-27"^^xsd:date ;
+    ns1:deathDate "2129-09-16"^^xsd:date ;
+    ns1:endDate "2129-05-02"^^xsd:date,
+        "2129-05-03"^^xsd:date,
+        "2129-05-04"^^xsd:date,
+        "2129-05-06"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/285789.0> ;
+    ns1:identifier 2.85789e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/285789.0> ;
+    ns1:startDate "2129-05-02"^^xsd:date,
+        "2129-05-03"^^xsd:date .
+
+<http://example.com/patient/286020.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2108-01-15"^^xsd:date ;
+    ns1:deathDate "2190-09-14"^^xsd:date ;
+    ns1:endDate "2190-07-13"^^xsd:date,
+        "2190-07-14"^^xsd:date,
+        "2190-07-15"^^xsd:date,
+        "2190-07-16"^^xsd:date,
+        "2190-07-17"^^xsd:date,
+        "2190-07-18"^^xsd:date,
+        "2190-07-19"^^xsd:date,
+        "2190-07-20"^^xsd:date,
+        "2190-07-21"^^xsd:date,
+        "2190-07-22"^^xsd:date,
+        "2190-07-23"^^xsd:date,
+        "2190-07-25"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/286020.0> ;
+    ns1:identifier 2.8602e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/286020.0> ;
+    ns1:startDate "2190-07-13"^^xsd:date,
+        "2190-07-14"^^xsd:date,
+        "2190-07-15"^^xsd:date,
+        "2190-07-16"^^xsd:date,
+        "2190-07-17"^^xsd:date,
+        "2190-07-18"^^xsd:date,
+        "2190-07-19"^^xsd:date,
+        "2190-07-20"^^xsd:date,
+        "2190-07-21"^^xsd:date .
+
+<http://example.com/patient/286072.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2199-02-01"^^xsd:date,
+        "2199-02-02"^^xsd:date,
+        "2199-02-03"^^xsd:date,
+        "2199-02-04"^^xsd:date,
+        "2199-02-05"^^xsd:date,
+        "2199-02-06"^^xsd:date,
+        "2199-02-07"^^xsd:date,
+        "2199-02-08"^^xsd:date,
+        "2199-02-09"^^xsd:date,
+        "2199-02-10"^^xsd:date,
+        "2199-02-11"^^xsd:date,
+        "2199-02-12"^^xsd:date,
+        "2199-02-14"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/286072.0> ;
+    ns1:identifier 2.86072e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/286072.0> ;
+    ns1:startDate "2199-02-01"^^xsd:date,
+        "2199-02-02"^^xsd:date,
+        "2199-02-03"^^xsd:date,
+        "2199-02-04"^^xsd:date,
+        "2199-02-05"^^xsd:date,
+        "2199-02-06"^^xsd:date,
+        "2199-02-07"^^xsd:date,
+        "2199-02-08"^^xsd:date,
+        "2199-02-09"^^xsd:date,
+        "2199-02-10"^^xsd:date,
+        "2199-02-11"^^xsd:date,
+        "2199-02-12"^^xsd:date .
+
+<http://example.com/patient/286428.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2057-11-15"^^xsd:date ;
+    ns1:deathDate "2114-02-20"^^xsd:date ;
+    ns1:endDate "2112-05-29"^^xsd:date,
+        "2112-05-30"^^xsd:date,
+        "2112-05-31"^^xsd:date,
+        "2112-06-01"^^xsd:date,
+        "2112-06-02"^^xsd:date,
+        "2112-06-03"^^xsd:date,
+        "2112-06-05"^^xsd:date,
+        "2112-06-07"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/286428.0> ;
+    ns1:identifier 2.86428e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/286428.0> ;
+    ns1:startDate "2112-05-29"^^xsd:date,
+        "2112-05-30"^^xsd:date,
+        "2112-05-31"^^xsd:date,
+        "2112-06-01"^^xsd:date,
+        "2112-06-02"^^xsd:date .
+
+<http://example.com/patient/289236.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2029-12-07"^^xsd:date ;
+    ns1:deathDate "2111-01-14"^^xsd:date ;
+    ns1:endDate "2111-01-08"^^xsd:date,
+        "2111-01-09"^^xsd:date,
+        "2111-01-10"^^xsd:date,
+        "2111-01-11"^^xsd:date,
+        "2111-01-12"^^xsd:date,
+        "2111-01-13"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/289236.0> ;
+    ns1:identifier 2.89236e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/289236.0> ;
+    ns1:startDate "2111-01-08"^^xsd:date,
+        "2111-01-09"^^xsd:date,
+        "2111-01-10"^^xsd:date .
+
+<http://example.com/patient/290478.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2058-08-04"^^xsd:date ;
+    ns1:deathDate "2136-03-26"^^xsd:date ;
+    ns1:endDate "2135-10-25"^^xsd:date,
+        "2135-10-26"^^xsd:date,
+        "2135-10-27"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/290478.0> ;
+    ns1:identifier 2.90478e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/290478.0> ;
+    ns1:startDate "2135-10-25"^^xsd:date,
+        "2135-10-26"^^xsd:date .
+
+<http://example.com/patient/290513.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2104-02-12"^^xsd:date ;
+    ns1:deathDate "2176-09-09"^^xsd:date ;
+    ns1:endDate "2175-10-02"^^xsd:date,
+        "2175-10-03"^^xsd:date,
+        "2175-10-04"^^xsd:date,
+        "2175-10-05"^^xsd:date,
+        "2175-10-06"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/290513.0> ;
+    ns1:identifier 2.90513e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/290513.0> ;
+    ns1:startDate "2175-10-02"^^xsd:date,
+        "2175-10-03"^^xsd:date .
+
+<http://example.com/patient/291067.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2136-07-28"^^xsd:date ;
+    ns1:deathDate "2202-12-05"^^xsd:date ;
+    ns1:endDate "2202-05-02"^^xsd:date,
+        "2202-05-03"^^xsd:date,
+        "2202-05-04"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/291067.0> ;
+    ns1:identifier 2.91067e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/291067.0> ;
+    ns1:startDate "2202-05-02"^^xsd:date,
+        "2202-05-03"^^xsd:date .
+
+<http://example.com/patient/292910.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2058-04-23"^^xsd:date ;
+    ns1:deathDate "2123-11-06"^^xsd:date ;
+    ns1:endDate "2123-08-24"^^xsd:date,
+        "2123-08-25"^^xsd:date,
+        "2123-08-26"^^xsd:date,
+        "2123-08-27"^^xsd:date,
+        "2123-09-01"^^xsd:date,
+        "2123-09-17"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/292910.0> ;
+    ns1:identifier 2.9291e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/292910.0> ;
+    ns1:startDate "2123-08-24"^^xsd:date,
+        "2123-08-25"^^xsd:date .
+
+<http://example.com/patient/293178.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2096-07-25"^^xsd:date ;
+    ns1:deathDate "2145-12-06"^^xsd:date ;
+    ns1:endDate "2145-09-06"^^xsd:date,
+        "2145-09-07"^^xsd:date,
+        "2145-09-08"^^xsd:date,
+        "2145-09-09"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/293178.0> ;
+    ns1:identifier 2.93178e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/293178.0> ;
+    ns1:startDate "2145-09-06"^^xsd:date,
+        "2145-09-07"^^xsd:date,
+        "2145-09-08"^^xsd:date .
+
+<http://example.com/patient/293280.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2055-07-18"^^xsd:date ;
+    ns1:deathDate "2128-03-24"^^xsd:date ;
+    ns1:endDate "2128-03-23"^^xsd:date,
+        "2128-03-24"^^xsd:date,
+        "2128-03-25"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/293280.0> ;
+    ns1:identifier 2.9328e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/293280.0> ;
+    ns1:startDate "2128-03-23"^^xsd:date,
+        "2128-03-24"^^xsd:date .
+
+<http://example.com/patient/293363.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2046-07-05"^^xsd:date ;
+    ns1:deathDate "2128-11-09"^^xsd:date ;
+    ns1:endDate "2128-11-05"^^xsd:date,
+        "2128-11-06"^^xsd:date,
+        "2128-11-07"^^xsd:date,
+        "2128-11-09"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/293363.0> ;
+    ns1:identifier 2.93363e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/293363.0> ;
+    ns1:startDate "2128-11-05"^^xsd:date,
+        "2128-11-06"^^xsd:date .
+
+<http://example.com/patient/293429.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2097-11-14"^^xsd:date ;
+    ns1:deathDate "2186-07-07"^^xsd:date ;
+    ns1:endDate "2186-07-07"^^xsd:date,
+        "2186-07-08"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/293429.0> ;
+    ns1:identifier 2.93429e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/293429.0> ;
+    ns1:startDate "2186-07-07"^^xsd:date .
+
+<http://example.com/patient/295043.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2108-12-20"^^xsd:date ;
+    ns1:deathDate "2192-05-15"^^xsd:date ;
+    ns1:endDate "2192-04-24"^^xsd:date,
+        "2192-04-25"^^xsd:date,
+        "2192-04-26"^^xsd:date,
+        "2192-04-27"^^xsd:date,
+        "2192-04-28"^^xsd:date,
+        "2192-04-29"^^xsd:date,
+        "2192-04-30"^^xsd:date,
+        "2192-05-01"^^xsd:date,
+        "2192-05-11"^^xsd:date,
+        "2192-05-16"^^xsd:date ;
+    ns1:gender "F" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/295043.0> ;
+    ns1:identifier 2.95043e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/295043.0> ;
+    ns1:startDate "2192-04-24"^^xsd:date,
+        "2192-04-25"^^xsd:date,
+        "2192-04-26"^^xsd:date,
+        "2192-04-27"^^xsd:date .
+
+<http://example.com/patient/295741.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2096-02-27"^^xsd:date ;
+    ns1:deathDate "2126-04-06"^^xsd:date ;
+    ns1:endDate "2124-01-13"^^xsd:date,
+        "2124-01-14"^^xsd:date,
+        "2124-01-15"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/295741.0> ;
+    ns1:identifier 2.95741e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/295741.0> ;
+    ns1:startDate "2124-01-13"^^xsd:date,
+        "2124-01-14"^^xsd:date .
+
+<http://example.com/patient/296804.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2053-04-13"^^xsd:date ;
+    ns1:deathDate "2133-03-30"^^xsd:date ;
+    ns1:endDate "2129-03-06"^^xsd:date,
+        "2129-03-07"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/296804.0> ;
+    ns1:identifier 2.96804e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/296804.0> ;
+    ns1:startDate "2129-03-05"^^xsd:date,
+        "2129-03-06"^^xsd:date .
+
+<http://example.com/patient/298685.0> a ns1:MedicalEntity ;
+    ns1:birthDate "2086-02-04"^^xsd:date ;
+    ns1:deathDate "2166-02-26"^^xsd:date ;
+    ns1:endDate "2166-02-13"^^xsd:date,
+        "2166-02-14"^^xsd:date,
+        "2166-02-15"^^xsd:date,
+        "2166-02-16"^^xsd:date,
+        "2166-02-17"^^xsd:date,
+        "2166-02-18"^^xsd:date,
+        "2166-02-19"^^xsd:date,
+        "2166-02-20"^^xsd:date,
+        "2166-02-21"^^xsd:date,
+        "2166-02-22"^^xsd:date,
+        "2166-02-23"^^xsd:date,
+        "2166-02-24"^^xsd:date,
+        "2166-02-25"^^xsd:date,
+        "2166-02-26"^^xsd:date ;
+    ns1:gender "M" ;
+    ns1:hospitalStay <http://example.com/hospitalstay/298685.0> ;
+    ns1:identifier 2.98685e+05 ;
+    ns1:medicalCondition <http://example.com/medicalcondition/298685.0> ;
+    ns1:startDate "2166-02-13"^^xsd:date,
+        "2166-02-14"^^xsd:date,
+        "2166-02-15"^^xsd:date,
+        "2166-02-16"^^xsd:date,
+        "2166-02-17"^^xsd:date,
+        "2166-02-18"^^xsd:date,
+        "2166-02-19"^^xsd:date,
+        "2166-02-20"^^xsd:date,
+        "2166-02-21"^^xsd:date,
+        "2166-02-22"^^xsd:date,
+        "2166-02-23"^^xsd:date,
+        "2166-02-24"^^xsd:date,
+        "2166-02-25"^^xsd:date .
+
+<http://example.com/hospitalstay/201006.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "LUNG CANCER;SHORTNESS OF BREATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 198503 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "7.1173"^^xsd:float ;
+    ns1:patient 10076 .
+
+<http://example.com/hospitalstay/201204.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FAILURE TO THRIVE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 114648 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.9121"^^xsd:float ;
+    ns1:patient 42321 .
+
+<http://example.com/hospitalstay/203766.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FEVER" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 126949 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "6.3034"^^xsd:float ;
+    ns1:patient 10045 .
+
+<http://example.com/hospitalstay/204132.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "AROMEGLEY;BURKITTS LYMPHOMA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 157609 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "7.1988"^^xsd:float ;
+    ns1:patient 40310 .
+
+<http://example.com/hospitalstay/204201.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPONATREMIA;URINARY TRACT INFECTION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 177678 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.6628"^^xsd:float ;
+    ns1:patient 10104 .
+
+<http://example.com/hospitalstay/204881.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HUMERAL FRACTURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 199207 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.1436"^^xsd:float ;
+    ns1:patient 10017 .
+
+<http://example.com/hospitalstay/205170.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOTENSION;UNRESPONSIVE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 173269 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.9406"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/205589.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "GASTROINTESTINAL BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 165436 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.892"^^xsd:float ;
+    ns1:patient 10119 .
+
+<http://example.com/hospitalstay/206504.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 142345 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.6325"^^xsd:float ;
+    ns1:patient 10006 .
+
+<http://example.com/hospitalstay/209797.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS; UTI" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 155297 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.7361"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/210164.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FAILURE TO THRIVE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 102203 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.2607"^^xsd:float ;
+    ns1:patient 42135 .
+
+<http://example.com/hospitalstay/210474.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CEREBROVASCULAR ACCIDENT" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 100969 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.8437"^^xsd:float ;
+    ns1:patient 42430 .
+
+<http://example.com/hospitalstay/210989.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FACIAL NUMBNESS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 186361 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "19.5761"^^xsd:float ;
+    ns1:patient 40310 .
+
+<http://example.com/hospitalstay/213315.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 125013 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.9732"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/214180.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ACUTE PULMONARY EMBOLISM" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 172454 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.9252"^^xsd:float ;
+    ns1:patient 43881 .
+
+<http://example.com/hospitalstay/215460.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "VARICEAL BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 142582 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.7806"^^xsd:float ;
+    ns1:patient 10059 .
+
+<http://example.com/hospitalstay/216185.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ASTHMA;CHRONIC OBST PULM DISEASE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 138132 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "10.7341"^^xsd:float ;
+    ns1:patient 41795 .
+
+<http://example.com/hospitalstay/216493.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 149469 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.9456"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/217724.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ALTERED MENTAL STATUS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 174245 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.6259"^^xsd:float ;
+    ns1:patient 44154 .
+
+<http://example.com/hospitalstay/217960.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HEADACHE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 133283 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.9231"^^xsd:float ;
+    ns1:patient 10106 .
+
+<http://example.com/hospitalstay/217992.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CHOLANGITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 103379 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "4.6191"^^xsd:float ;
+    ns1:patient 44228 .
+
+<http://example.com/hospitalstay/219013.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SYNCOPE;TELEMETRY;INTRACRANIAL HEMORRHAGE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 127703 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.262"^^xsd:float ;
+    ns1:patient 40277 .
+
+<http://example.com/hospitalstay/220016.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CELLULITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 126002 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.7146"^^xsd:float ;
+    ns1:patient 40655 .
+
+<http://example.com/hospitalstay/220671.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "STROKE/TIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 142633 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.2821"^^xsd:float ;
+    ns1:patient 43870 .
+
+<http://example.com/hospitalstay/221684.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "UPPER GI BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 195911 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "15.0564"^^xsd:float ;
+    ns1:patient 42281 .
+
+<http://example.com/hospitalstay/222779.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CONGESTIVE HEART FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 170883 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "3.4951"^^xsd:float ;
+    ns1:patient 10124 .
+
+<http://example.com/hospitalstay/223177.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CHEST PAIN/ CATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 145203 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "24.9968"^^xsd:float ;
+    ns1:patient 10061 .
+
+<http://example.com/hospitalstay/223285.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 180391 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.9538"^^xsd:float ;
+    ns1:patient 42346 .
+
+<http://example.com/hospitalstay/223870.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CHRONIC MYELOGENOUS LEUKEMIA;TRANSFUSION REACTION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 164869 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.452"^^xsd:float ;
+    ns1:patient 10102 .
+
+<http://example.com/hospitalstay/224021.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "GASTROINTESTINAL BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 170119 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.6549"^^xsd:float ;
+    ns1:patient 10074 .
+
+<http://example.com/hospitalstay/224063.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "VF ARREST " ;
+    ns1:admissionType "URGENT" ;
+    ns1:encounter 188574 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "5.6857"^^xsd:float ;
+    ns1:patient 10112 .
+
+<http://example.com/hospitalstay/224458.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "METASTIC MELANOMA;ANEMIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 167181 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.1203"^^xsd:float ;
+    ns1:patient 43746 .
+
+<http://example.com/hospitalstay/226055.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SYNCOPE;TELEMETRY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 132349 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.2624"^^xsd:float ;
+    ns1:patient 10029 .
+
+<http://example.com/hospitalstay/227834.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 189483 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.8068"^^xsd:float ;
+    ns1:patient 10036 .
+
+<http://example.com/hospitalstay/228977.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ALCOHOLIC HEPATITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 177759 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.2938"^^xsd:float ;
+    ns1:patient 10019 .
+
+<http://example.com/hospitalstay/229194.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ACUTE SUBDURAL HEMATOMA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 186071 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.7437"^^xsd:float ;
+    ns1:patient 43779 .
+
+<http://example.com/hospitalstay/231005.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CHOLECYSTITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 104697 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "3.5465"^^xsd:float ;
+    ns1:patient 40612 .
+
+<http://example.com/hospitalstay/234424.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "MEDIASTINAL ADENOPATHY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 174997 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.152"^^xsd:float ;
+    ns1:patient 40304 .
+
+<http://example.com/hospitalstay/234541.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 152032 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.0829"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/235482.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FAILURE TO THRIVE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 111115 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "3.3857"^^xsd:float ;
+    ns1:patient 10038 .
+
+<http://example.com/hospitalstay/236120.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ACUTE CHOLANGITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 198480 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.1116"^^xsd:float ;
+    ns1:patient 40177 .
+
+<http://example.com/hospitalstay/237528.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CONGESTIVE HEART FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 170883 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "15.3636"^^xsd:float ;
+    ns1:patient 10124 .
+
+<http://example.com/hospitalstay/238186.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "BRADYCARDIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 192189 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.3279"^^xsd:float ;
+    ns1:patient 44222 .
+
+<http://example.com/hospitalstay/238399.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "LEFT HIP OA/SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 109698 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.7299"^^xsd:float ;
+    ns1:patient 40286 .
+
+<http://example.com/hospitalstay/239396.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ACUTE RESPIRATORY DISTRESS SYNDROME;ACUTE RENAL FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 163189 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "31.1235"^^xsd:float ;
+    ns1:patient 44212 .
+
+<http://example.com/hospitalstay/239935.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOTENSION, RENAL FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 121860 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "4.2467"^^xsd:float ;
+    ns1:patient 43748 .
+
+<http://example.com/hospitalstay/241992.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOGLYCEMIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 114867 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.7404"^^xsd:float ;
+    ns1:patient 42412 .
+
+<http://example.com/hospitalstay/242680.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 179418 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.7569"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/242790.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 161765 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.0003"^^xsd:float ;
+    ns1:patient 40456 .
+
+<http://example.com/hospitalstay/243123.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "UPPER GI BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 167021 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.2762"^^xsd:float ;
+    ns1:patient 43881 .
+
+<http://example.com/hospitalstay/243229.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ESOPHAGEAL CA/SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 130870 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "7.1076"^^xsd:float ;
+    ns1:patient 43798 .
+
+<http://example.com/hospitalstay/243238.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "MI CHF" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 149950 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.4031"^^xsd:float ;
+    ns1:patient 43827 .
+
+<http://example.com/hospitalstay/243600.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOTENSION;TELEMETRY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 168074 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "4.1014"^^xsd:float ;
+    ns1:patient 10094 .
+
+<http://example.com/hospitalstay/244243.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "TRACHEAL STENOSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 171628 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "5.0956"^^xsd:float ;
+    ns1:patient 42066 .
+
+<http://example.com/hospitalstay/245091.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ESOPHAGEAL CANCER/SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 183314 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.2559"^^xsd:float ;
+    ns1:patient 10065 .
+
+<http://example.com/hospitalstay/246080.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "BASAL GANGLIN BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 190301 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.471"^^xsd:float ;
+    ns1:patient 10089 .
+
+<http://example.com/hospitalstay/247686.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ACUTE CHOLECYSTITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 157466 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "7.902"^^xsd:float ;
+    ns1:patient 10119 .
+
+<http://example.com/hospitalstay/248755.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "LOWER GI BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 122098 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "7.1083"^^xsd:float ;
+    ns1:patient 10059 .
+
+<http://example.com/hospitalstay/249695.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CONGESTIVE HEART FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 168233 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.6226"^^xsd:float ;
+    ns1:patient 10088 .
+
+<http://example.com/hospitalstay/249805.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "LIVER FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 160445 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "35.4065"^^xsd:float ;
+    ns1:patient 10126 .
+
+<http://example.com/hospitalstay/250305.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEIZURE;STATUS EPILEPTICUS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 139932 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "29.2601"^^xsd:float ;
+    ns1:patient 42367 .
+
+<http://example.com/hospitalstay/251281.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ASTHMA/COPD FLARE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 167754 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.9911"^^xsd:float ;
+    ns1:patient 42302 .
+
+<http://example.com/hospitalstay/251573.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CRITICAL AORTIC STENOSIS/HYPOTENSION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 165393 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.9017"^^xsd:float ;
+    ns1:patient 10093 .
+
+<http://example.com/hospitalstay/253931.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 172082 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "10.8625"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/254543.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "RENAL FAILIURE-SYNCOPE-HYPERKALEMIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 157235 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.0695"^^xsd:float ;
+    ns1:patient 10033 .
+
+<http://example.com/hospitalstay/254635.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "RENAL CANCER/SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 171878 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.1358"^^xsd:float ;
+    ns1:patient 42231 .
+
+<http://example.com/hospitalstay/256338.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ELEVATED LIVER FUNCTIONS;S/P LIVER TRANSPLANT" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 101361 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "12.9903"^^xsd:float ;
+    ns1:patient 41914 .
+
+<http://example.com/hospitalstay/256345.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS;PNEUMONIA;TELEMETRY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 169938 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "3.6885"^^xsd:float ;
+    ns1:patient 10088 .
+
+<http://example.com/hospitalstay/256542.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SHORTNESS OF BREATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 154156 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.8799"^^xsd:float ;
+    ns1:patient 42033 .
+
+<http://example.com/hospitalstay/256746.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "UPPER GI BLEED" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 195911 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "3.776"^^xsd:float ;
+    ns1:patient 42281 .
+
+<http://example.com/hospitalstay/258147.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "UNSTABLE ANGINA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 148562 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "8.1415"^^xsd:float ;
+    ns1:patient 10042 .
+
+<http://example.com/hospitalstay/261743.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "MEDIASTINAL ADENOPATHY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 174997 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.1474"^^xsd:float ;
+    ns1:patient 40304 .
+
+<http://example.com/hospitalstay/261764.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "LEFT HIP FRACTURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 182664 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.8258"^^xsd:float ;
+    ns1:patient 10124 .
+
+<http://example.com/hospitalstay/262670.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "STATUS POST MOTOR VEHICLE ACCIDENT WITH INJURIES" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 180685 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.7602"^^xsd:float ;
+    ns1:patient 10098 .
+
+<http://example.com/hospitalstay/263095.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "URINARY TRACT INFECTION;PYELONEPHRITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 174863 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.7599"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/263370.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOTENSION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 134993 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "4.5761"^^xsd:float ;
+    ns1:patient 10083 .
+
+<http://example.com/hospitalstay/263934.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CONGESTIVE HEART FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 174739 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "11.0714"^^xsd:float ;
+    ns1:patient 10111 .
+
+<http://example.com/hospitalstay/264258.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PLEURAL EFFUSION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 158100 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.9775"^^xsd:float ;
+    ns1:patient 43879 .
+
+<http://example.com/hospitalstay/264446.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 165520 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.6499"^^xsd:float ;
+    ns1:patient 10013 .
+
+<http://example.com/hospitalstay/265505.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FEVER" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 130681 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "4.9262"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/265615.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ESOPHAGEAL CA/SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 125157 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.9287"^^xsd:float ;
+    ns1:patient 44083 .
+
+<http://example.com/hospitalstay/266122.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "RESPIRATORY DISTRESS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 168674 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.0141"^^xsd:float ;
+    ns1:patient 10043 .
+
+<http://example.com/hospitalstay/267090.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "RIGHT HUMEROUS FRACTURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 140372 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "3.712"^^xsd:float ;
+    ns1:patient 10032 .
+
+<http://example.com/hospitalstay/267267.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 153826 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.6397"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/268282.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "LIVER FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 193924 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.6465"^^xsd:float ;
+    ns1:patient 10120 .
+
+<http://example.com/hospitalstay/269173.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 146893 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "3.7516"^^xsd:float ;
+    ns1:patient 40124 .
+
+<http://example.com/hospitalstay/270154.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "METASTATIC MELANOMA;BRAIN METASTASIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 124073 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "4.6179"^^xsd:float ;
+    ns1:patient 10044 .
+
+<http://example.com/hospitalstay/271544.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "S/P MOTOR VEHICLE ACCIDENT" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 182839 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "22.3895"^^xsd:float ;
+    ns1:patient 10127 .
+
+<http://example.com/hospitalstay/272047.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PULMONARY EDEMA\\CATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 157839 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.1306"^^xsd:float ;
+    ns1:patient 10040 .
+
+<http://example.com/hospitalstay/273347.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS;TELEMETRY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 122928 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "3.9712"^^xsd:float ;
+    ns1:patient 10094 .
+
+<http://example.com/hospitalstay/274509.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CHEST PAIN" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 178513 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "5.4263"^^xsd:float ;
+    ns1:patient 42199 .
+
+<http://example.com/hospitalstay/276601.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "TRACHEAL ESOPHAGEAL FISTULA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 116518 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "8.9255"^^xsd:float ;
+    ns1:patient 40595 .
+
+<http://example.com/hospitalstay/277021.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "STROKE/TIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 103770 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.4056"^^xsd:float ;
+    ns1:patient 10026 .
+
+<http://example.com/hospitalstay/277238.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA/HYPOGLCEMIA/SYNCOPE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 138503 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.0316"^^xsd:float ;
+    ns1:patient 42292 .
+
+<http://example.com/hospitalstay/277403.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "UROSEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 149044 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.0091"^^xsd:float ;
+    ns1:patient 10088 .
+
+<http://example.com/hospitalstay/279183.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ABDOMINAL PAIN" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 129273 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.6694"^^xsd:float ;
+    ns1:patient 40687 .
+
+<http://example.com/hospitalstay/279529.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 182879 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.4872"^^xsd:float ;
+    ns1:patient 40601 .
+
+<http://example.com/hospitalstay/279554.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SHORTNESS OF BREATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 126179 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.4549"^^xsd:float ;
+    ns1:patient 40124 .
+
+<http://example.com/hospitalstay/279721.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "VOLVULUS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 175880 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.535"^^xsd:float ;
+    ns1:patient 42346 .
+
+<http://example.com/hospitalstay/280943.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "UTI/PYELONEPHRITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 151798 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.3129"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/281609.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HEPATIC ENCEP" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 117105 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "21.4136"^^xsd:float ;
+    ns1:patient 42135 .
+
+<http://example.com/hospitalstay/282566.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FEVER" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 105150 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.6745"^^xsd:float ;
+    ns1:patient 10117 .
+
+<http://example.com/hospitalstay/282640.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SHORTNESS OF BREATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 131048 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.1026"^^xsd:float ;
+    ns1:patient 44083 .
+
+<http://example.com/hospitalstay/283181.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOTENSION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 112662 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.498"^^xsd:float ;
+    ns1:patient 43735 .
+
+<http://example.com/hospitalstay/283875.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "S/P FALL" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 107689 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.9178"^^xsd:float ;
+    ns1:patient 41983 .
+
+<http://example.com/hospitalstay/285272.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PNEUMONIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 125449 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "2.5803"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/285353.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 180546 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.3352"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/285369.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "FEVER;URINARY TRACT INFECTION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 175237 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.8592"^^xsd:float ;
+    ns1:patient 40204 .
+
+<http://example.com/hospitalstay/285750.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ACUTE CHOLANGITIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 198480 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.6176"^^xsd:float ;
+    ns1:patient 40177 .
+
+<http://example.com/hospitalstay/285789.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 100375 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.0491"^^xsd:float ;
+    ns1:patient 10056 .
+
+<http://example.com/hospitalstay/286020.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis " MITRAL REGURGITATION;CORONARY ARTERY DISEASE\\CORONARY ARTERY BYPASS GRAFT WITH MVR  ? MITRAL VALVE REPLACEMENT /SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 199395 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "7.2616"^^xsd:float ;
+    ns1:patient 10027 .
+
+<http://example.com/hospitalstay/286072.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SEPSIS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 176016 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "10.7764"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/286428.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "PERICARDIAL EFFUSION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 198330 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "3.6174"^^xsd:float ;
+    ns1:patient 44083 .
+
+<http://example.com/hospitalstay/289236.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "METASTIC MELANOMA;ANEMIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 167181 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.9657"^^xsd:float ;
+    ns1:patient 43746 .
+
+<http://example.com/hospitalstay/290478.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "SHORTNESS OF BREATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 128293 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.7974"^^xsd:float ;
+    ns1:patient 42275 .
+
+<http://example.com/hospitalstay/290513.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CORONARY ARTERY DISEASE\\CORONARY ARTERY BYPASS GRAFT /SDA" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 110958 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.3153"^^xsd:float ;
+    ns1:patient 43927 .
+
+<http://example.com/hospitalstay/291067.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "RESPIRATORY DISTRESS" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 145024 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.0176"^^xsd:float ;
+    ns1:patient 41976 .
+
+<http://example.com/hospitalstay/292910.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "NON SMALL CELL CANCER;HYPOXIA" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 197611 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "0.7973"^^xsd:float ;
+    ns1:patient 10132 .
+
+<http://example.com/hospitalstay/293178.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "ASTHMA;CHRONIC OBST PULM DISEASE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 118192 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.4011"^^xsd:float ;
+    ns1:patient 41795 .
+
+<http://example.com/hospitalstay/293280.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "TACHYPNEA;TELEMETRY" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 142539 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "0.9447"^^xsd:float ;
+    ns1:patient 10101 .
+
+<http://example.com/hospitalstay/293363.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "HYPOTENSION" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 112662 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.0429"^^xsd:float ;
+    ns1:patient 43735 .
+
+<http://example.com/hospitalstay/293429.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "STEMI;" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 168803 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "1.0337"^^xsd:float ;
+    ns1:patient 40503 .
+
+<http://example.com/hospitalstay/295043.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "CONGESTIVE HEART FAILURE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 170883 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "2.8958"^^xsd:float ;
+    ns1:patient 10124 .
+
+<http://example.com/hospitalstay/295741.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "OVERDOSE" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 176805 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.1409"^^xsd:float ;
+    ns1:patient 10090 .
+
+<http://example.com/hospitalstay/296804.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "RECURRENT LEFT CAROTID STENOSIS,PRE HYDRATION" ;
+    ns1:admissionType "ELECTIVE" ;
+    ns1:encounter 110244 ;
+    ns1:hospitalStatus 0 ;
+    ns1:lengthOfStay "1.3755"^^xsd:float ;
+    ns1:patient 10035 .
+
+<http://example.com/hospitalstay/298685.0> a ns1:HospitalStay ;
+    ns1:admissionDiagnosis "INFERIOR MYOCARDIAL INFARCTION\\CATH" ;
+    ns1:admissionType "EMERGENCY" ;
+    ns1:encounter 151323 ;
+    ns1:hospitalStatus 1 ;
+    ns1:lengthOfStay "13.357"^^xsd:float ;
+    ns1:patient 42075 .
+
+<http://example.com/medicalcondition/201006.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "1625",
+        "1970",
+        "1972",
+        "1985",
+        "2639",
+        "2761",
+        "2762",
+        "28522",
+        "486",
+        "51881",
+        "5849",
+        "78791",
+        "99592",
+        "E9331" .
+
+<http://example.com/medicalcondition/201204.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2720",
+        "2760",
+        "27650",
+        "2851",
+        "2930",
+        "29410",
+        "30000",
+        "311",
+        "3310",
+        "40390",
+        "42731",
+        "43850",
+        "5849",
+        "5859",
+        "5990",
+        "75321",
+        "8600",
+        "E8798" .
+
+<http://example.com/medicalcondition/203766.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "0383",
+        "1179",
+        "2449",
+        "25000",
+        "2724",
+        "2761",
+        "2859",
+        "2867",
+        "4019",
+        "41072",
+        "41401",
+        "42731",
+        "4280",
+        "431",
+        "44422",
+        "4471",
+        "56969",
+        "5849",
+        "5990",
+        "78552",
+        "99592",
+        "V1042",
+        "V153",
+        "V1582",
+        "V446",
+        "V4582" .
+
+<http://example.com/medicalcondition/204132.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "20020",
+        "20280",
+        "2273",
+        "2530",
+        "2753",
+        "27542",
+        "2764",
+        "2767",
+        "27788",
+        "28489",
+        "28800",
+        "28803",
+        "3510",
+        "35782",
+        "37000",
+        "4271",
+        "45341",
+        "45381",
+        "45829",
+        "48241",
+        "48242",
+        "4830",
+        "4940",
+        "5121",
+        "5180",
+        "51881",
+        "52801",
+        "56409",
+        "5845",
+        "6039",
+        "60490",
+        "6930",
+        "70703",
+        "70724",
+        "71589",
+        "7850",
+        "7868",
+        "78820",
+        "E8781",
+        "E9308",
+        "E9331",
+        "V1204",
+        "V1251",
+        "V600",
+        "V8741" .
+
+<http://example.com/medicalcondition/204201.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2555",
+        "2720",
+        "2761",
+        "4019",
+        "49390",
+        "5990",
+        "73300",
+        "78039" .
+
+<http://example.com/medicalcondition/204881.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2724",
+        "2851",
+        "4019",
+        "41511",
+        "486",
+        "4928",
+        "8024",
+        "8028",
+        "81201",
+        "99812",
+        "E8788",
+        "E8859",
+        "V1259" .
+
+<http://example.com/medicalcondition/205170.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/205589.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "34982",
+        "4019",
+        "412",
+        "42731",
+        "53140",
+        "53240",
+        "5750",
+        "5754",
+        "5770",
+        "5849",
+        "7907",
+        "V5861" .
+
+<http://example.com/medicalcondition/206504.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03819",
+        "25000",
+        "2749",
+        "28529",
+        "3051",
+        "40391",
+        "41401",
+        "4240",
+        "4241",
+        "42731",
+        "4280",
+        "56211",
+        "7850",
+        "99591",
+        "99662",
+        "E8791",
+        "E9342",
+        "V090",
+        "V5867" .
+
+<http://example.com/medicalcondition/209797.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/210164.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03812",
+        "1122",
+        "261",
+        "2639",
+        "2762",
+        "2763",
+        "2768",
+        "30391",
+        "30393",
+        "452",
+        "45621",
+        "486",
+        "51881",
+        "53789",
+        "5712",
+        "5722",
+        "5724",
+        "5789",
+        "5849",
+        "5859",
+        "59970",
+        "78039",
+        "78552",
+        "78959",
+        "7994",
+        "99592",
+        "V0254",
+        "V1581",
+        "V4983" .
+
+<http://example.com/medicalcondition/210474.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "3051",
+        "3484",
+        "4019",
+        "42731",
+        "43411",
+        "4439",
+        "496",
+        "5070",
+        "51881" .
+
+<http://example.com/medicalcondition/210989.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "20020",
+        "20280",
+        "2273",
+        "2530",
+        "2753",
+        "27542",
+        "2764",
+        "2767",
+        "27788",
+        "28489",
+        "28800",
+        "28803",
+        "3510",
+        "35782",
+        "37000",
+        "4271",
+        "45341",
+        "45381",
+        "45829",
+        "48241",
+        "48242",
+        "4830",
+        "4940",
+        "5121",
+        "5180",
+        "51881",
+        "52801",
+        "56409",
+        "5845",
+        "6039",
+        "60490",
+        "6930",
+        "70703",
+        "70724",
+        "71589",
+        "7850",
+        "7868",
+        "78820",
+        "E8781",
+        "E9308",
+        "E9331",
+        "V1204",
+        "V1251",
+        "V600",
+        "V8741" .
+
+<http://example.com/medicalcondition/213315.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/214180.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1508",
+        "1970",
+        "1977",
+        "1985",
+        "2724",
+        "2749",
+        "2761",
+        "2800",
+        "32723",
+        "40391",
+        "41519",
+        "45340",
+        "486",
+        "53082",
+        "53190",
+        "56211",
+        "56400",
+        "5789",
+        "5856",
+        "71940",
+        "V1251",
+        "V420",
+        "V5861" .
+
+<http://example.com/medicalcondition/215460.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "07070",
+        "2800",
+        "2875",
+        "4019",
+        "452",
+        "45620",
+        "51881",
+        "5715",
+        "5723",
+        "5724",
+        "5849",
+        "5859",
+        "78552",
+        "99592" .
+
+<http://example.com/medicalcondition/216185.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "25002",
+        "2761",
+        "2762",
+        "2768",
+        "27801",
+        "2875",
+        "29562",
+        "3051",
+        "32723",
+        "4019",
+        "4168",
+        "4240",
+        "42731",
+        "4280",
+        "42832",
+        "42833",
+        "45829",
+        "45981",
+        "486",
+        "49121",
+        "51881",
+        "70712",
+        "79092",
+        "E9342",
+        "V433",
+        "V4581",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/216493.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/217724.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "36250",
+        "42731",
+        "4549",
+        "5070",
+        "71690",
+        "72400",
+        "99592" .
+
+<http://example.com/medicalcondition/217960.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0543",
+        "25000",
+        "30390",
+        "4019",
+        "49390" .
+
+<http://example.com/medicalcondition/217992.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03842",
+        "1561",
+        "1975",
+        "1977",
+        "2449",
+        "2859",
+        "45182",
+        "486",
+        "78552",
+        "99592" .
+
+<http://example.com/medicalcondition/219013.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2761",
+        "2768",
+        "30000",
+        "4019",
+        "496",
+        "7861",
+        "85206",
+        "85306",
+        "E8889",
+        "V1302" .
+
+<http://example.com/medicalcondition/220016.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0388",
+        "25002",
+        "2724",
+        "2768",
+        "28529",
+        "40390",
+        "41400",
+        "42781",
+        "4280",
+        "42822",
+        "45981",
+        "53551",
+        "5849",
+        "5854",
+        "6826",
+        "70714",
+        "99591",
+        "V4581" .
+
+<http://example.com/medicalcondition/220671.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2724",
+        "2859",
+        "34290",
+        "4019",
+        "42731",
+        "43491",
+        "514",
+        "51881",
+        "5990" .
+
+<http://example.com/medicalcondition/221684.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "07044",
+        "2760",
+        "2762",
+        "2768",
+        "2851",
+        "42741",
+        "45620",
+        "51881",
+        "53390",
+        "5533",
+        "5641",
+        "56949",
+        "5715",
+        "5723",
+        "5849",
+        "59582",
+        "6191",
+        "78959",
+        "E8792",
+        "V1041",
+        "V153",
+        "V8801" .
+
+<http://example.com/medicalcondition/222779.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03811",
+        "2449",
+        "25000",
+        "25092",
+        "2767",
+        "27800",
+        "2851",
+        "32723",
+        "40390",
+        "40391",
+        "4168",
+        "42731",
+        "4280",
+        "42832",
+        "42833",
+        "4414",
+        "486",
+        "51884",
+        "56400",
+        "5845",
+        "5849",
+        "5859",
+        "5990",
+        "70705",
+        "73300",
+        "82021",
+        "99591",
+        "99811",
+        "E8788",
+        "E8859",
+        "V1251",
+        "V5413" .
+
+<http://example.com/medicalcondition/223177.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "41071",
+        "4280",
+        "48282",
+        "51881",
+        "570",
+        "5849",
+        "78551",
+        "78559" .
+
+<http://example.com/medicalcondition/223285.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2724",
+        "2764",
+        "3659",
+        "37230",
+        "3963",
+        "3968",
+        "3970",
+        "39891",
+        "4019",
+        "4254",
+        "42731",
+        "4280",
+        "42821",
+        "4439",
+        "4589",
+        "486",
+        "51881",
+        "53390",
+        "5602",
+        "56400",
+        "5990",
+        "79902",
+        "V1083",
+        "V4501",
+        "V5861",
+        "V5867",
+        "V667" .
+
+<http://example.com/medicalcondition/223870.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "20510",
+        "2761",
+        "2762",
+        "2800",
+        "28959",
+        "5119",
+        "5180",
+        "5789",
+        "70703",
+        "7850",
+        "79092" .
+
+<http://example.com/medicalcondition/224021.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2851",
+        "3962",
+        "3970",
+        "39891",
+        "42731",
+        "42789",
+        "486",
+        "496",
+        "56985",
+        "5849",
+        "V5861" .
+
+<http://example.com/medicalcondition/224063.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2449",
+        "2967",
+        "3320",
+        "3481",
+        "42741",
+        "51881",
+        "53081",
+        "56210",
+        "78003" .
+
+<http://example.com/medicalcondition/224458.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0413",
+        "1541",
+        "1962",
+        "1976",
+        "1977",
+        "2800",
+        "4019",
+        "5772",
+        "5849",
+        "5960",
+        "5990",
+        "71590",
+        "7823",
+        "78820",
+        "78900",
+        "78959" .
+
+<http://example.com/medicalcondition/226055.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0380",
+        "2380",
+        "2875",
+        "2930",
+        "40391",
+        "42731",
+        "4280",
+        "5119",
+        "51882",
+        "57451",
+        "5761",
+        "5856",
+        "5990",
+        "7211",
+        "78552",
+        "99592",
+        "99659",
+        "99673",
+        "V1046",
+        "V1588",
+        "V4502" .
+
+<http://example.com/medicalcondition/227834.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "2449",
+        "2760",
+        "2762",
+        "29410",
+        "3310",
+        "5070",
+        "53081",
+        "5849",
+        "725",
+        "78552",
+        "99592" .
+
+<http://example.com/medicalcondition/228977.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "30390",
+        "4019",
+        "49390",
+        "51881",
+        "5711",
+        "5722",
+        "5770",
+        "5781",
+        "5845",
+        "78559",
+        "99592" .
+
+<http://example.com/medicalcondition/229194.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1539",
+        "1970",
+        "25000",
+        "2724",
+        "28521",
+        "40390",
+        "42652",
+        "5849",
+        "5859",
+        "85221",
+        "E8859" .
+
+<http://example.com/medicalcondition/231005.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "2948",
+        "29570",
+        "33385",
+        "34590",
+        "4280",
+        "496",
+        "5601",
+        "5750",
+        "99591",
+        "E9479" .
+
+<http://example.com/medicalcondition/234424.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1961",
+        "20280",
+        "2749",
+        "2760",
+        "28521",
+        "32723",
+        "4241",
+        "42731",
+        "4280",
+        "42833",
+        "4439",
+        "486",
+        "5180",
+        "5849",
+        "5859",
+        "9341",
+        "V1011",
+        "V5861" .
+
+<http://example.com/medicalcondition/234541.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/235482.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0380",
+        "04102",
+        "2763",
+        "2875",
+        "2948",
+        "4019",
+        "42731",
+        "4280",
+        "42830",
+        "45981",
+        "5849",
+        "71105",
+        "73300",
+        "7837",
+        "79092",
+        "99591",
+        "99667",
+        "99677",
+        "E8498",
+        "E8781" .
+
+<http://example.com/medicalcondition/236120.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "2724",
+        "2762",
+        "27651",
+        "2767",
+        "2851",
+        "3659",
+        "4019",
+        "41071",
+        "41400",
+        "5119",
+        "5180",
+        "570",
+        "57471",
+        "5761",
+        "5770",
+        "5849",
+        "99592",
+        "V4581" .
+
+<http://example.com/medicalcondition/237528.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03811",
+        "2449",
+        "25000",
+        "25092",
+        "2767",
+        "27800",
+        "2851",
+        "32723",
+        "40390",
+        "40391",
+        "4168",
+        "42731",
+        "4280",
+        "42832",
+        "42833",
+        "4414",
+        "486",
+        "51884",
+        "56400",
+        "5845",
+        "5849",
+        "5859",
+        "5990",
+        "70705",
+        "73300",
+        "82021",
+        "99591",
+        "99811",
+        "E8788",
+        "E8859",
+        "V1251",
+        "V5413" .
+
+<http://example.com/medicalcondition/238186.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25060",
+        "2724",
+        "3320",
+        "3572",
+        "40390",
+        "41401",
+        "42781",
+        "5849",
+        "5853",
+        "72400",
+        "E9429" .
+
+<http://example.com/medicalcondition/238399.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2449",
+        "2768",
+        "2851",
+        "2930",
+        "4019",
+        "42731",
+        "45829",
+        "71615",
+        "78603",
+        "E9352" .
+
+<http://example.com/medicalcondition/239396.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03811",
+        "2760",
+        "2839",
+        "28731",
+        "3481",
+        "40391",
+        "452",
+        "48241",
+        "51881",
+        "5566",
+        "5601",
+        "570",
+        "5711",
+        "5712",
+        "5722",
+        "5845",
+        "5855",
+        "5990",
+        "70703",
+        "70723",
+        "78552",
+        "78959",
+        "99592" .
+
+<http://example.com/medicalcondition/239935.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2875",
+        "41400",
+        "4280",
+        "42843",
+        "5849",
+        "6826",
+        "78551",
+        "V4581" .
+
+<http://example.com/medicalcondition/241992.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2511",
+        "2724",
+        "28521",
+        "2930",
+        "2948",
+        "40390",
+        "41400",
+        "4149",
+        "42731",
+        "4280",
+        "42832",
+        "486",
+        "5849",
+        "5859",
+        "59971",
+        "60000",
+        "8670",
+        "E9289",
+        "E9308",
+        "V1272",
+        "V4581" .
+
+<http://example.com/medicalcondition/242680.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/242790.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2811",
+        "2859",
+        "41401",
+        "4240",
+        "42789",
+        "4280",
+        "42823",
+        "V1251",
+        "V5861" .
+
+<http://example.com/medicalcondition/243123.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1508",
+        "1970",
+        "1977",
+        "1985",
+        "2724",
+        "2749",
+        "2761",
+        "2800",
+        "32723",
+        "40391",
+        "41519",
+        "45340",
+        "486",
+        "53082",
+        "53190",
+        "56211",
+        "56400",
+        "5789",
+        "5856",
+        "71940",
+        "V1251",
+        "V420",
+        "V5861" .
+
+<http://example.com/medicalcondition/243229.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "04112",
+        "1510",
+        "25000",
+        "2761",
+        "2763",
+        "2875",
+        "40390",
+        "42731",
+        "47831",
+        "5109",
+        "51189",
+        "51881",
+        "53081",
+        "5859",
+        "9971" .
+
+<http://example.com/medicalcondition/243238.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2859",
+        "36250",
+        "4019",
+        "41041",
+        "41401",
+        "4160",
+        "4241",
+        "42731",
+        "4280",
+        "42832",
+        "53081",
+        "V103",
+        "V4571",
+        "V8801" .
+
+<http://example.com/medicalcondition/243600.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "0389",
+        "2273",
+        "2449",
+        "25000",
+        "2532",
+        "2760",
+        "2948",
+        "3970",
+        "4280",
+        "486",
+        "5070",
+        "5849",
+        "70706",
+        "99592" .
+
+<http://example.com/medicalcondition/244243.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2749",
+        "319",
+        "34590",
+        "4275",
+        "5070",
+        "51919",
+        "7580",
+        "78720",
+        "V441",
+        "V4611" .
+
+<http://example.com/medicalcondition/245091.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1510",
+        "1962",
+        "1978",
+        "2720",
+        "2749",
+        "4019",
+        "53081",
+        "5859",
+        "7140",
+        "73300",
+        "9992" .
+
+<http://example.com/medicalcondition/246080.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "4019",
+        "41400",
+        "431",
+        "5070",
+        "V4581" .
+
+<http://example.com/medicalcondition/247686.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "34982",
+        "4019",
+        "412",
+        "42731",
+        "53140",
+        "53240",
+        "5750",
+        "5754",
+        "5770",
+        "5849",
+        "7907",
+        "V5861" .
+
+<http://example.com/medicalcondition/248755.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "07070",
+        "2800",
+        "2875",
+        "4019",
+        "452",
+        "45620",
+        "51881",
+        "5715",
+        "5723",
+        "5724",
+        "5849",
+        "5859",
+        "78552",
+        "99592" .
+
+<http://example.com/medicalcondition/249695.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "04111",
+        "20280",
+        "2724",
+        "2760",
+        "2762",
+        "28529",
+        "2859",
+        "29040",
+        "29041",
+        "311",
+        "3320",
+        "4019",
+        "41071",
+        "41400",
+        "42789",
+        "4280",
+        "4370",
+        "44031",
+        "4439",
+        "490",
+        "5070",
+        "51881",
+        "51882",
+        "56210",
+        "5781",
+        "5849",
+        "5990",
+        "78552",
+        "99591",
+        "99592",
+        "V090",
+        "V1079",
+        "V1201",
+        "V441",
+        "V4581",
+        "V4582" .
+
+<http://example.com/medicalcondition/249805.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "07032",
+        "2867",
+        "28959",
+        "4168",
+        "4280",
+        "5121",
+        "56881",
+        "570",
+        "5712",
+        "5750",
+        "5762",
+        "5845",
+        "99682" .
+
+<http://example.com/medicalcondition/250305.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2761",
+        "2768",
+        "2859",
+        "2948",
+        "311",
+        "3315",
+        "34570",
+        "4280",
+        "42832",
+        "43889",
+        "53081",
+        "72989",
+        "78060",
+        "79094",
+        "85225",
+        "E8889",
+        "V1582",
+        "V452" .
+
+<http://example.com/medicalcondition/251281.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "04112",
+        "25000",
+        "28521",
+        "2930",
+        "2948",
+        "2989",
+        "311",
+        "340",
+        "37410",
+        "40390",
+        "412",
+        "41401",
+        "4280",
+        "42832",
+        "49322",
+        "5070",
+        "53081",
+        "5859",
+        "73300",
+        "79902",
+        "V1302",
+        "V1581",
+        "V5865" .
+
+<http://example.com/medicalcondition/251573.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2639",
+        "27651",
+        "4019",
+        "41071",
+        "41401",
+        "4241",
+        "4439",
+        "5789",
+        "5849",
+        "78559" .
+
+<http://example.com/medicalcondition/253931.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/254543.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "24220",
+        "25000",
+        "2720",
+        "2767",
+        "311",
+        "4019",
+        "42731",
+        "43811",
+        "51919",
+        "53390",
+        "5849",
+        "E8889" .
+
+<http://example.com/medicalcondition/254635.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1890",
+        "1966",
+        "2724",
+        "2859",
+        "2930",
+        "4019",
+        "42731",
+        "42789",
+        "45829",
+        "5119",
+        "9982",
+        "E8700",
+        "V103" .
+
+<http://example.com/medicalcondition/256338.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03843",
+        "03849",
+        "25000",
+        "2724",
+        "2859",
+        "30390",
+        "3481",
+        "4019",
+        "4239",
+        "4739",
+        "490",
+        "5119",
+        "5180",
+        "51884",
+        "5728",
+        "5849",
+        "70705",
+        "70707",
+        "70720",
+        "70722",
+        "99592",
+        "99682",
+        "99731",
+        "E9290",
+        "V1582",
+        "V4611",
+        "V5411",
+        "V5419",
+        "V550",
+        "V551",
+        "V5867" .
+
+<http://example.com/medicalcondition/256345.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "04111",
+        "20280",
+        "2724",
+        "2760",
+        "2762",
+        "28529",
+        "2859",
+        "29040",
+        "29041",
+        "311",
+        "3320",
+        "4019",
+        "41071",
+        "41400",
+        "42789",
+        "4280",
+        "4370",
+        "44031",
+        "4439",
+        "490",
+        "5070",
+        "51881",
+        "51882",
+        "56210",
+        "5781",
+        "5849",
+        "5990",
+        "78552",
+        "99591",
+        "99592",
+        "V090",
+        "V1079",
+        "V1201",
+        "V441",
+        "V4581",
+        "V4582" .
+
+<http://example.com/medicalcondition/256542.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "3962",
+        "41401",
+        "4160",
+        "42731",
+        "4280",
+        "42821",
+        "9971" .
+
+<http://example.com/medicalcondition/256746.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "07044",
+        "2760",
+        "2762",
+        "2768",
+        "2851",
+        "42741",
+        "45620",
+        "51881",
+        "53390",
+        "5533",
+        "5641",
+        "56949",
+        "5715",
+        "5723",
+        "5849",
+        "59582",
+        "6191",
+        "78959",
+        "E8792",
+        "V1041",
+        "V153",
+        "V8801" .
+
+<http://example.com/medicalcondition/258147.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "41071",
+        "41401",
+        "4160",
+        "4240",
+        "4271",
+        "42731",
+        "4280",
+        "4439",
+        "9971" .
+
+<http://example.com/medicalcondition/261743.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1961",
+        "20280",
+        "2749",
+        "2760",
+        "28521",
+        "32723",
+        "4241",
+        "42731",
+        "4280",
+        "42833",
+        "4439",
+        "486",
+        "5180",
+        "5849",
+        "5859",
+        "9341",
+        "V1011",
+        "V5861" .
+
+<http://example.com/medicalcondition/261764.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03811",
+        "2449",
+        "25000",
+        "25092",
+        "2767",
+        "27800",
+        "2851",
+        "32723",
+        "40390",
+        "40391",
+        "4168",
+        "42731",
+        "4280",
+        "42832",
+        "42833",
+        "4414",
+        "486",
+        "51884",
+        "56400",
+        "5845",
+        "5849",
+        "5859",
+        "5990",
+        "70705",
+        "73300",
+        "82021",
+        "99591",
+        "99811",
+        "E8788",
+        "E8859",
+        "V1251",
+        "V5413" .
+
+<http://example.com/medicalcondition/262670.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "4271",
+        "80375",
+        "87349",
+        "E8120",
+        "E8495" .
+
+<http://example.com/medicalcondition/263095.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/263370.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "04104",
+        "04182",
+        "261",
+        "2738",
+        "2739",
+        "2761",
+        "2762",
+        "27652",
+        "27739",
+        "28529",
+        "311",
+        "4280",
+        "45829",
+        "53019",
+        "53081",
+        "5780",
+        "58181",
+        "5990",
+        "7907",
+        "99662",
+        "V0980" .
+
+<http://example.com/medicalcondition/263934.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "4241",
+        "42731",
+        "42781",
+        "4280",
+        "496",
+        "51881",
+        "5849",
+        "78057" .
+
+<http://example.com/medicalcondition/264258.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2762",
+        "311",
+        "5119",
+        "51881",
+        "53081",
+        "7802",
+        "E9379",
+        "V103" .
+
+<http://example.com/medicalcondition/264446.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "20280",
+        "2724",
+        "41071",
+        "4240",
+        "42731",
+        "486",
+        "78551" .
+
+<http://example.com/medicalcondition/265505.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/265615.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1510",
+        "2724",
+        "2859",
+        "4019",
+        "4233",
+        "4239",
+        "5119",
+        "V1003" .
+
+<http://example.com/medicalcondition/266122.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "28529",
+        "2875",
+        "4280",
+        "42831",
+        "486",
+        "49121",
+        "51881" .
+
+<http://example.com/medicalcondition/267090.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1985",
+        "2851",
+        "2875",
+        "4280",
+        "42830",
+        "5070",
+        "5849",
+        "81249" .
+
+<http://example.com/medicalcondition/267267.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/268282.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "2762",
+        "2866",
+        "3453",
+        "34831",
+        "3485",
+        "51881",
+        "570",
+        "5849",
+        "99592",
+        "E9361",
+        "V1259",
+        "V667" .
+
+<http://example.com/medicalcondition/269173.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1628",
+        "27651",
+        "2859",
+        "4019",
+        "486",
+        "496",
+        "51881",
+        "5849",
+        "7821" .
+
+<http://example.com/medicalcondition/270154.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1970",
+        "1977",
+        "1983",
+        "28522",
+        "4019",
+        "41401",
+        "42731",
+        "5939",
+        "6826" .
+
+<http://example.com/medicalcondition/271544.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1122",
+        "3361",
+        "34401",
+        "37950",
+        "42789",
+        "486",
+        "80102",
+        "8020",
+        "80601",
+        "82101",
+        "8730",
+        "99813",
+        "E8231" .
+
+<http://example.com/medicalcondition/272047.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2809",
+        "40291",
+        "41401",
+        "4241",
+        "4280",
+        "4928",
+        "51881",
+        "53081",
+        "7907" .
+
+<http://example.com/medicalcondition/273347.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "0389",
+        "2273",
+        "2449",
+        "25000",
+        "2532",
+        "2760",
+        "2948",
+        "3970",
+        "4280",
+        "486",
+        "5070",
+        "5849",
+        "70706",
+        "99592" .
+
+<http://example.com/medicalcondition/274509.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1570",
+        "1970",
+        "1977",
+        "25000",
+        "2859",
+        "34290",
+        "4019",
+        "41071",
+        "43401",
+        "4531",
+        "7907",
+        "99812",
+        "E8798",
+        "V103",
+        "V1251" .
+
+<http://example.com/medicalcondition/276601.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "1629",
+        "2859",
+        "4011",
+        "4240",
+        "42731",
+        "42732",
+        "48242",
+        "5119",
+        "5180",
+        "51881",
+        "51919",
+        "53084",
+        "53089",
+        "78724",
+        "79029",
+        "99659",
+        "99731",
+        "E8781",
+        "V0254",
+        "V103",
+        "V153",
+        "V5861",
+        "V8741" .
+
+<http://example.com/medicalcondition/277021.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2761",
+        "2859",
+        "3569",
+        "4010",
+        "431",
+        "5990",
+        "V103" .
+
+<http://example.com/medicalcondition/277238.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25070",
+        "25080",
+        "2859",
+        "29181",
+        "30301",
+        "3051",
+        "42731",
+        "44020",
+        "486",
+        "53081",
+        "78009",
+        "8830",
+        "99631",
+        "E8120",
+        "E8495",
+        "E8497",
+        "E8796",
+        "V425" .
+
+<http://example.com/medicalcondition/277403.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "04111",
+        "20280",
+        "2724",
+        "2760",
+        "2762",
+        "28529",
+        "2859",
+        "29040",
+        "29041",
+        "311",
+        "3320",
+        "4019",
+        "41071",
+        "41400",
+        "42789",
+        "4280",
+        "4370",
+        "44031",
+        "4439",
+        "490",
+        "5070",
+        "51881",
+        "51882",
+        "56210",
+        "5781",
+        "5849",
+        "5990",
+        "78552",
+        "99591",
+        "99592",
+        "V090",
+        "V1079",
+        "V1201",
+        "V441",
+        "V4581",
+        "V4582" .
+
+<http://example.com/medicalcondition/279183.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1961",
+        "1965",
+        "1970",
+        "1972",
+        "1976",
+        "1985",
+        "2720",
+        "2760",
+        "4019",
+        "45340",
+        "486",
+        "51881",
+        "E9331",
+        "V103" .
+
+<http://example.com/medicalcondition/279529.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2724",
+        "27801",
+        "4019",
+        "41001",
+        "41401",
+        "42731",
+        "4280",
+        "42821",
+        "49390",
+        "5990",
+        "78551" .
+
+<http://example.com/medicalcondition/279554.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1628",
+        "27651",
+        "2859",
+        "4019",
+        "486",
+        "496",
+        "51881",
+        "5849",
+        "7821" .
+
+<http://example.com/medicalcondition/279721.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2724",
+        "2764",
+        "3659",
+        "37230",
+        "3963",
+        "3968",
+        "3970",
+        "39891",
+        "4019",
+        "4254",
+        "42731",
+        "4280",
+        "42821",
+        "4439",
+        "4589",
+        "486",
+        "51881",
+        "53390",
+        "5602",
+        "56400",
+        "5990",
+        "79902",
+        "V1083",
+        "V4501",
+        "V5861",
+        "V5867",
+        "V667" .
+
+<http://example.com/medicalcondition/280943.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/281609.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03812",
+        "1122",
+        "261",
+        "2639",
+        "2762",
+        "2763",
+        "2768",
+        "30391",
+        "30393",
+        "452",
+        "45621",
+        "486",
+        "51881",
+        "53789",
+        "5712",
+        "5722",
+        "5724",
+        "5789",
+        "5849",
+        "5859",
+        "59970",
+        "78039",
+        "78552",
+        "78959",
+        "7994",
+        "99592",
+        "V0254",
+        "V1581",
+        "V4983" .
+
+<http://example.com/medicalcondition/282566.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1120",
+        "20300",
+        "2762",
+        "2875",
+        "486",
+        "51881",
+        "5290",
+        "7907",
+        "99662",
+        "V4281" .
+
+<http://example.com/medicalcondition/282640.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1510",
+        "2724",
+        "2859",
+        "4019",
+        "4233",
+        "4239",
+        "5119",
+        "V1003" .
+
+<http://example.com/medicalcondition/283181.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2449",
+        "25000",
+        "2724",
+        "32723",
+        "34830",
+        "40390",
+        "41401",
+        "4254",
+        "4271",
+        "42731",
+        "4280",
+        "42843",
+        "4439",
+        "486",
+        "496",
+        "5119",
+        "5712",
+        "5789",
+        "5849",
+        "5859",
+        "78959",
+        "79902",
+        "V4582" .
+
+<http://example.com/medicalcondition/283875.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "20410",
+        "2449",
+        "2761",
+        "2948",
+        "3669",
+        "4019",
+        "4240",
+        "53081",
+        "5990",
+        "80501",
+        "80502",
+        "8052",
+        "8911",
+        "E8490",
+        "E8809",
+        "V667" .
+
+<http://example.com/medicalcondition/285272.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/285353.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/285369.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "40391",
+        "41401",
+        "4280",
+        "42822",
+        "486",
+        "496",
+        "5856",
+        "58881",
+        "5990",
+        "71946",
+        "78009",
+        "V0254",
+        "V4511" .
+
+<http://example.com/medicalcondition/285750.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "2724",
+        "2762",
+        "27651",
+        "2767",
+        "2851",
+        "3659",
+        "4019",
+        "41071",
+        "41400",
+        "5119",
+        "5180",
+        "570",
+        "57471",
+        "5761",
+        "5770",
+        "5849",
+        "99592",
+        "V4581" .
+
+<http://example.com/medicalcondition/285789.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "2761",
+        "4280",
+        "42831",
+        "5845",
+        "5990",
+        "78552",
+        "99592" .
+
+<http://example.com/medicalcondition/286020.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2948",
+        "3970",
+        "4019",
+        "41401",
+        "4240",
+        "4266",
+        "42731",
+        "4280",
+        "5691",
+        "5859",
+        "79092" .
+
+<http://example.com/medicalcondition/286072.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/286428.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1510",
+        "2724",
+        "2859",
+        "4019",
+        "4233",
+        "4239",
+        "5119",
+        "V1003" .
+
+<http://example.com/medicalcondition/289236.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0413",
+        "1541",
+        "1962",
+        "1976",
+        "1977",
+        "2800",
+        "4019",
+        "5772",
+        "5849",
+        "5960",
+        "5990",
+        "71590",
+        "7823",
+        "78820",
+        "78900",
+        "78959" .
+
+<http://example.com/medicalcondition/290478.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1629",
+        "193",
+        "1961",
+        "32723",
+        "40390",
+        "47833",
+        "49121",
+        "5303",
+        "5853",
+        "60000",
+        "78722",
+        "V153",
+        "V1582",
+        "V4501",
+        "V462",
+        "V8741" .
+
+<http://example.com/medicalcondition/290513.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2724",
+        "4019",
+        "4139",
+        "41401",
+        "4142",
+        "43310",
+        "49390",
+        "V1272",
+        "V1301",
+        "V4582" .
+
+<http://example.com/medicalcondition/291067.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "00845",
+        "03812",
+        "0383",
+        "03840",
+        "03849",
+        "0389",
+        "0416",
+        "0417",
+        "1120",
+        "2449",
+        "25000",
+        "25060",
+        "25062",
+        "2689",
+        "2724",
+        "2752",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2767",
+        "2800",
+        "2859",
+        "28860",
+        "2930",
+        "311",
+        "33829",
+        "34400",
+        "3441",
+        "3569",
+        "3572",
+        "4019",
+        "42731",
+        "43810",
+        "43811",
+        "43819",
+        "43853",
+        "43882",
+        "43889",
+        "4439",
+        "48283",
+        "486",
+        "5070",
+        "51881",
+        "51909",
+        "53019",
+        "53081",
+        "53642",
+        "53649",
+        "5780",
+        "5849",
+        "5989",
+        "5990",
+        "59960",
+        "59970",
+        "70703",
+        "70705",
+        "70720",
+        "70721",
+        "70722",
+        "70723",
+        "70724",
+        "7810",
+        "78552",
+        "78720",
+        "78820",
+        "99591",
+        "99592",
+        "99664",
+        "99811",
+        "E8796",
+        "E8798",
+        "V1204",
+        "V1251",
+        "V1254",
+        "V1302",
+        "V1582",
+        "V440",
+        "V442",
+        "V444",
+        "V4572",
+        "V4984",
+        "V4986",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/292910.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "0389",
+        "1124",
+        "1622",
+        "1983",
+        "41071",
+        "41519",
+        "5121",
+        "99591",
+        "V1042" .
+
+<http://example.com/medicalcondition/293178.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "25002",
+        "2761",
+        "2762",
+        "2768",
+        "27801",
+        "2875",
+        "29562",
+        "3051",
+        "32723",
+        "4019",
+        "4168",
+        "4240",
+        "42731",
+        "4280",
+        "42832",
+        "42833",
+        "45829",
+        "45981",
+        "486",
+        "49121",
+        "51881",
+        "70712",
+        "79092",
+        "E9342",
+        "V433",
+        "V4581",
+        "V5861",
+        "V5867" .
+
+<http://example.com/medicalcondition/293280.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1628",
+        "1970",
+        "1976",
+        "1977",
+        "1980",
+        "1987",
+        "19889" .
+
+<http://example.com/medicalcondition/293363.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2449",
+        "25000",
+        "2724",
+        "32723",
+        "34830",
+        "40390",
+        "41401",
+        "4254",
+        "4271",
+        "42731",
+        "4280",
+        "42843",
+        "4439",
+        "486",
+        "496",
+        "5119",
+        "5712",
+        "5789",
+        "5849",
+        "5859",
+        "78959",
+        "79902",
+        "V4582" .
+
+<http://example.com/medicalcondition/293429.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "25000",
+        "2721",
+        "2761",
+        "4019",
+        "41071",
+        "41401",
+        "4240",
+        "42731",
+        "4280",
+        "42821",
+        "7213",
+        "725",
+        "73730",
+        "78551" .
+
+<http://example.com/medicalcondition/295043.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "03811",
+        "2449",
+        "25000",
+        "25092",
+        "2767",
+        "27800",
+        "2851",
+        "32723",
+        "40390",
+        "40391",
+        "4168",
+        "42731",
+        "4280",
+        "42832",
+        "42833",
+        "4414",
+        "486",
+        "51884",
+        "56400",
+        "5845",
+        "5849",
+        "5859",
+        "5990",
+        "70705",
+        "73300",
+        "82021",
+        "99591",
+        "99811",
+        "E8788",
+        "E8859",
+        "V1251",
+        "V5413" .
+
+<http://example.com/medicalcondition/295741.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2851",
+        "29633",
+        "9680",
+        "9693",
+        "9694",
+        "E9503",
+        "E9504" .
+
+<http://example.com/medicalcondition/296804.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "2749",
+        "412",
+        "43310" .
+
+<http://example.com/medicalcondition/298685.0> a ns1:MedicalCondition ;
+    ns1:diagnosis "1623",
+        "1977",
+        "1985",
+        "25000",
+        "2724",
+        "2762",
+        "28984",
+        "4019",
+        "41041",
+        "41401",
+        "4275",
+        "4588",
+        "496",
+        "5070",
+        "51881",
+        "5789",
+        "5849" .
+
